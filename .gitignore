@@ -22,7 +22,6 @@ msvc/Release/
 *.sdf
 *.opensdf
 *.aps
-*.cmake
 .DS_Store
 *~
 .*.swp
