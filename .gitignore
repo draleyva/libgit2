@@ -29,3 +29,4 @@ msvc/Release/
 .*.swp
 tags
 mkmf.log
+/git2.dir
