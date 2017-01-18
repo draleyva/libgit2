@@ -1156,21 +1156,6 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="deps\zlib">
-      <UniqueIdentifier>{5EF99710-EE89-361A-B50A-1F74D32ECF79}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="deps\http-parser">
-      <UniqueIdentifier>{8775E8E4-FF47-3BF9-9415-7702E0E887FC}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="deps\regex">
-      <UniqueIdentifier>{542C2399-8BAD-3933-8D6A-C0D7953FA6F3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="include\git2">
-      <UniqueIdentifier>{74E68241-76E8-3EA3-BA1B-04DC0F886764}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="include\git2\sys">
-      <UniqueIdentifier>{5D759204-9BF0-3119-91E8-42731FDE8080}</UniqueIdentifier>
-    </Filter>
     <Filter Include="include">
       <UniqueIdentifier>{A4E330B0-08F5-381C-841E-D0E3A98D82C9}</UniqueIdentifier>
     </Filter>
@@ -1179,6 +1164,12 @@
     </Filter>
     <Filter Include="deps">
       <UniqueIdentifier>{9B84213C-3109-366A-91AA-18D59F209DEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\git2">
+      <UniqueIdentifier>{74E68241-76E8-3EA3-BA1B-04DC0F886764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\git2\sys">
+      <UniqueIdentifier>{5D759204-9BF0-3119-91E8-42731FDE8080}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\transports">
       <UniqueIdentifier>{DFD5F744-C548-3AA8-A184-9352B10D85B4}</UniqueIdentifier>
@@ -1191,6 +1182,15 @@
     </Filter>
     <Filter Include="src\hash">
       <UniqueIdentifier>{F587BF5E-9360-38E7-B8A9-F21234781AA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps\zlib">
+      <UniqueIdentifier>{5EF99710-EE89-361A-B50A-1F74D32ECF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps\http-parser">
+      <UniqueIdentifier>{8775E8E4-FF47-3BF9-9415-7702E0E887FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps\regex">
+      <UniqueIdentifier>{542C2399-8BAD-3933-8D6A-C0D7953FA6F3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
