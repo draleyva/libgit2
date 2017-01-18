@@ -23,7 +23,6 @@ msvc/Release/
 *.opensdf
 *.aps
 *.cmake
-!cmake/Modules/*.cmake
 .DS_Store
 *~
 .*.swp
