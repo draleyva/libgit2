@@ -30,3 +30,4 @@ msvc/Release/
 tags
 mkmf.log
 /git2.dir
+/Debug
