@@ -2,7 +2,7 @@
 C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt
 C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeDetermineSystem.cmake
 C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeSystem.cmake.in
-C:/SFTdevelopment/library/ext/src/libgit2/CMakeFiles/3.7.1/CMakeSystem.cmake
+C:/SFTdevelopment/library/ext/src/libgit2/CMakeFiles/3.7.2/CMakeSystem.cmake
 C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeSystemSpecificInitialize.cmake
 C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeDetermineCCompiler.cmake
 C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeDetermineCompiler.cmake
@@ -46,7 +46,7 @@ C:/Program Files/CMake/share/cmake-3.7/Modules/Compiler/IBMCPP-C-DetermineVersio
 C:/Program Files/CMake/share/cmake-3.7/Modules/CompilerId/VS-10.vcxproj.in
 C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeFindBinUtils.cmake
 C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeCCompiler.cmake.in
-C:/SFTdevelopment/library/ext/src/libgit2/CMakeFiles/3.7.1/CMakeCCompiler.cmake
+C:/SFTdevelopment/library/ext/src/libgit2/CMakeFiles/3.7.2/CMakeCCompiler.cmake
 C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeSystemSpecificInformation.cmake
 C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeGenericSystem.cmake
 C:/Program Files/CMake/share/cmake-3.7/Modules/Platform/Windows.cmake
@@ -57,7 +57,7 @@ C:/Program Files/CMake/share/cmake-3.7/Modules/Platform/Windows-MSVC-C.cmake
 C:/Program Files/CMake/share/cmake-3.7/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeDetermineRCCompiler.cmake
 C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeRCCompiler.cmake.in
-C:/SFTdevelopment/library/ext/src/libgit2/CMakeFiles/3.7.1/CMakeRCCompiler.cmake
+C:/SFTdevelopment/library/ext/src/libgit2/CMakeFiles/3.7.2/CMakeRCCompiler.cmake
 C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeRCInformation.cmake
 C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeTestRCCompiler.cmake
 C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeCommonLanguageInclude.cmake
@@ -68,7 +68,7 @@ C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeParseImplicitLinkInfo.cmake
 C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeCCompilerABI.c
 C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeDetermineCompileFeatures.cmake
 C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeCCompiler.cmake.in
-C:/SFTdevelopment/library/ext/src/libgit2/CMakeFiles/3.7.1/CMakeCCompiler.cmake
+C:/SFTdevelopment/library/ext/src/libgit2/CMakeFiles/3.7.2/CMakeCCompiler.cmake
 C:/Program Files/CMake/share/cmake-3.7/Modules/CheckLibraryExists.cmake
 C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.cmake
 C:/Program Files/CMake/share/cmake-3.7/Modules/CheckSymbolExists.cmake

@@ -2300,11 +2300,20 @@
     <Filter Include="deps\regex">
       <UniqueIdentifier>{542C2399-8BAD-3933-8D6A-C0D7953FA6F3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="tests\merge\trees">
-      <UniqueIdentifier>{538C30EE-C8A7-3282-9F27-DBD2AB2EBDBD}</UniqueIdentifier>
+    <Filter Include="tests\odb\backend">
+      <UniqueIdentifier>{6E8955E7-6F49-3CE7-BAE4-DE68AA9736EE}</UniqueIdentifier>
     </Filter>
-    <Filter Include="tests\merge\workdir">
-      <UniqueIdentifier>{F40F35E3-BB91-3566-8BF4-C902CE5FDEAE}</UniqueIdentifier>
+    <Filter Include="tests\trace\windows">
+      <UniqueIdentifier>{84AADEFF-2D0D-323E-88D0-8CDE2B956DDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\git2\sys">
+      <UniqueIdentifier>{5D759204-9BF0-3119-91E8-42731FDE8080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\git2">
+      <UniqueIdentifier>{74E68241-76E8-3EA3-BA1B-04DC0F886764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\network\remote">
+      <UniqueIdentifier>{05F3DCD8-93B9-3767-BD61-1A4B64C9EE96}</UniqueIdentifier>
     </Filter>
     <Filter Include="tests\refs\branches">
       <UniqueIdentifier>{C8A81325-6B57-3E93-922F-C5FF2AA9D509}</UniqueIdentifier>
@@ -2312,20 +2321,11 @@
     <Filter Include="tests\refs\reflog">
       <UniqueIdentifier>{97ED8C4D-76EF-3E6B-B745-DFFB47E1CE98}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CMake Rules">
-      <UniqueIdentifier>{76376CA6-59D6-3C79-A108-6DA192AD0C32}</UniqueIdentifier>
+    <Filter Include="tests\merge\trees">
+      <UniqueIdentifier>{538C30EE-C8A7-3282-9F27-DBD2AB2EBDBD}</UniqueIdentifier>
     </Filter>
-    <Filter Include="include">
-      <UniqueIdentifier>{A4E330B0-08F5-381C-841E-D0E3A98D82C9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src">
-      <UniqueIdentifier>{EE190A58-AE80-3025-AF97-7561E7A9564F}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="deps">
-      <UniqueIdentifier>{9B84213C-3109-366A-91AA-18D59F209DEA}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="tests">
-      <UniqueIdentifier>{F23206A2-FD6A-3410-90E2-133E29E0E2AB}</UniqueIdentifier>
+    <Filter Include="tests\merge\workdir">
+      <UniqueIdentifier>{F40F35E3-BB91-3566-8BF4-C902CE5FDEAE}</UniqueIdentifier>
     </Filter>
     <Filter Include="tests\object\blob">
       <UniqueIdentifier>{BA3B5A1F-4156-3DEF-A355-A18E191506DF}</UniqueIdentifier>
@@ -2342,17 +2342,20 @@
     <Filter Include="tests\object\tree">
       <UniqueIdentifier>{7F6BCD74-2C1D-34ED-B60C-B340D9DC9A35}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\transports">
-      <UniqueIdentifier>{DFD5F744-C548-3AA8-A184-9352B10D85B4}</UniqueIdentifier>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{76376CA6-59D6-3C79-A108-6DA192AD0C32}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\xdiff">
-      <UniqueIdentifier>{B3827989-52F8-35DE-800C-DB92C8BC221D}</UniqueIdentifier>
+    <Filter Include="include">
+      <UniqueIdentifier>{A4E330B0-08F5-381C-841E-D0E3A98D82C9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\win32">
-      <UniqueIdentifier>{41D1C0DB-5305-3C36-B22A-3017E0A975FC}</UniqueIdentifier>
+    <Filter Include="src">
+      <UniqueIdentifier>{EE190A58-AE80-3025-AF97-7561E7A9564F}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\hash">
-      <UniqueIdentifier>{F587BF5E-9360-38E7-B8A9-F21234781AA2}</UniqueIdentifier>
+    <Filter Include="deps">
+      <UniqueIdentifier>{9B84213C-3109-366A-91AA-18D59F209DEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{F23206A2-FD6A-3410-90E2-133E29E0E2AB}</UniqueIdentifier>
     </Filter>
     <Filter Include="tests\apply">
       <UniqueIdentifier>{0AC442A1-C6EB-3B77-9BBC-C7484DCCAC70}</UniqueIdentifier>
@@ -2486,20 +2489,17 @@
     <Filter Include="tests\clar">
       <UniqueIdentifier>{41D3E571-20F7-3280-8E59-DE624321990B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="include\git2">
-      <UniqueIdentifier>{74E68241-76E8-3EA3-BA1B-04DC0F886764}</UniqueIdentifier>
+    <Filter Include="src\transports">
+      <UniqueIdentifier>{DFD5F744-C548-3AA8-A184-9352B10D85B4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="tests\trace\windows">
-      <UniqueIdentifier>{84AADEFF-2D0D-323E-88D0-8CDE2B956DDD}</UniqueIdentifier>
+    <Filter Include="src\xdiff">
+      <UniqueIdentifier>{B3827989-52F8-35DE-800C-DB92C8BC221D}</UniqueIdentifier>
     </Filter>
-    <Filter Include="tests\network\remote">
-      <UniqueIdentifier>{05F3DCD8-93B9-3767-BD61-1A4B64C9EE96}</UniqueIdentifier>
+    <Filter Include="src\win32">
+      <UniqueIdentifier>{41D1C0DB-5305-3C36-B22A-3017E0A975FC}</UniqueIdentifier>
     </Filter>
-    <Filter Include="tests\odb\backend">
-      <UniqueIdentifier>{6E8955E7-6F49-3CE7-BAE4-DE68AA9736EE}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="include\git2\sys">
-      <UniqueIdentifier>{5D759204-9BF0-3119-91E8-42731FDE8080}</UniqueIdentifier>
+    <Filter Include="src\hash">
+      <UniqueIdentifier>{F587BF5E-9360-38E7-B8A9-F21234781AA2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
