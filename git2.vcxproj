@@ -104,6 +104,7 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_DEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;GIT_WINHTTP;WIN32_SHA1;NO_VIZ;STDC;NO_GZIP;HAVE_QSORT_S;GIT_THREADS;GIT_USE_NSEC;_FILE_OFFSET_BITS=64;WIN32;_WIN32_WINNT=0x0501;GIT_ARCH_32;CLAR_FIXTURE_PATH="C:/SFTdevelopment/library/ext/src/libgit2/tests/resources/";CLAR_RESOURCES="";CLAR_TMPDIR="libgit2_tests";CMAKE_INTDIR="Debug";git2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <StructMemberAlignment>1Byte</StructMemberAlignment>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_DEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;GIT_WINHTTP;WIN32_SHA1;NO_VIZ;STDC;NO_GZIP;HAVE_QSORT_S;GIT_THREADS;GIT_USE_NSEC;_FILE_OFFSET_BITS=64;WIN32;_WIN32_WINNT=0x0501;GIT_ARCH_32;CLAR_FIXTURE_PATH=\"C:/SFTdevelopment/library/ext/src/libgit2/tests/resources/\";CLAR_RESOURCES=\"\";CLAR_TMPDIR=\"libgit2_tests\";CMAKE_INTDIR=\"Debug\";git2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
