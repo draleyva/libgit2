@@ -129,7 +129,7 @@
       <RandomizedBaseAddress>true</RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
       <Version>0.25</Version>
-      <OutputFile>../../dll$(PlatformArchitecture)/$(Configuration)/$(ProjectName)$(TargetExt)</OutputFile>
+      <OutputFile>..\..\dll$(PlatformArchitecture)\$(Configuration)\$(ProjectName)$(TargetExt)</OutputFile>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -187,7 +187,7 @@
       <SetChecksum>true</SetChecksum>
       <SubSystem>Console</SubSystem>
       <Version>0.25</Version>
-      <OutputFile>../../dll$(PlatformArchitecture)/$(Configuration)/$(ProjectName)$(TargetExt)</OutputFile>
+      <OutputFile>..\..\dll$(PlatformArchitecture)\$(Configuration)\$(ProjectName)$(TargetExt)</OutputFile>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -245,7 +245,7 @@
       <SetChecksum>true</SetChecksum>
       <SubSystem>Console</SubSystem>
       <Version>0.25</Version>
-      <OutputFile>../../dll$(PlatformArchitecture)/$(Configuration)/$(ProjectName)$(TargetExt)</OutputFile>
+      <OutputFile>..\..\dll$(PlatformArchitecture)\$(Configuration)\$(ProjectName)$(TargetExt)</OutputFile>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -303,7 +303,7 @@
       <SetChecksum>true</SetChecksum>
       <SubSystem>Console</SubSystem>
       <Version>0.25</Version>
-      <OutputFile>../../dll$(PlatformArchitecture)/$(Configuration)/$(ProjectName)$(TargetExt)</OutputFile>
+      <OutputFile>..\..\dll$(PlatformArchitecture)\$(Configuration)\$(ProjectName)$(TargetExt)</OutputFile>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
