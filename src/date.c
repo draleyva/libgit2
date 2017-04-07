@@ -199,7 +199,7 @@ static size_t match_alpha(const char *date, struct tm *tm, int *offset)
 	return skip_alpha(date);
 }
 
-static int is_date(int year, int month, int day, struct tm *now_tm, time_t now, struct tm *tm)
+static int isDate(int year, int month, int day, struct tm *now_tm, time_t now, struct tm *tm)
 {
 	if (month > 0 && month < 13 && day > 0 && day < 32) {
 		struct tm check = *tm;
@@ -276,10 +276,10 @@ static size_t match_multi_number(unsigned long num, char c, const char *date, ch
 
 		if (num > 70) {
 			/* yyyy-mm-dd? */
-			if (is_date(num, num2, num3, refuse_future, now, tm))
+			if (isDate(num, num2, num3, refuse_future, now, tm))
 				break;
 			/* yyyy-dd-mm? */
-			if (is_date(num, num3, num2, refuse_future, now, tm))
+			if (isDate(num, num3, num2, refuse_future, now, tm))
 				break;
 		}
 		/* Our eastern European friends say dd.mm.yy[yy]
@@ -287,14 +287,14 @@ static size_t match_multi_number(unsigned long num, char c, const char *date, ch
 		 * mm/dd/yy[yy] form only when separator is not '.'
 		 */
 		if (c != '.' &&
-		    is_date(num3, num, num2, refuse_future, now, tm))
+		    isDate(num3, num, num2, refuse_future, now, tm))
 			break;
 		/* European dd.mm.yy[yy] or funny US dd/mm/yy[yy] */
-		if (is_date(num3, num2, num, refuse_future, now, tm))
+		if (isDate(num3, num2, num, refuse_future, now, tm))
 			break;
 		/* Funny European mm.dd.yy */
 		if (c == '.' &&
-		    is_date(num3, num, num2, refuse_future, now, tm))
+		    isDate(num3, num, num2, refuse_future, now, tm))
 			break;
 		return 0;
 	}

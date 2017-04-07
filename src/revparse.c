@@ -311,7 +311,7 @@ cleanup:
 
 static int handle_at_syntax(git_object **out, git_reference **ref, const char *spec, size_t identifier_len, git_repository* repo, const char *curly_braces_content)
 {
-	bool is_numeric;
+	bool isNumeric;
 	int parsed = 0, error = -1;
 	git_buf identifier = GIT_BUF_INIT;
 	git_time_t timestamp;
@@ -321,14 +321,14 @@ static int handle_at_syntax(git_object **out, git_reference **ref, const char *s
 	if (git_buf_put(&identifier, spec, identifier_len) < 0)
 		return -1;
 
-	is_numeric = !try_parse_numeric(&parsed, curly_braces_content);
+	isNumeric = !try_parse_numeric(&parsed, curly_braces_content);
 
-	if (*curly_braces_content == '-' && (!is_numeric || parsed == 0)) {
+	if (*curly_braces_content == '-' && (!isNumeric || parsed == 0)) {
 		error = GIT_EINVALIDSPEC;
 		goto cleanup;
 	}
 
-	if (is_numeric) {
+	if (isNumeric) {
 		if (parsed < 0)
 			error = retrieve_previously_checked_out_branch_or_revision(out, ref, repo, git_buf_cstr(&identifier), -parsed);
 		else
