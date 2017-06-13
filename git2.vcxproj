@@ -5,6 +5,14 @@
       <Configuration>Debug</Configuration>
       <Platform>Win32</Platform>
     </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
     <ProjectConfiguration Include="Release|Win32">
       <Configuration>Release</Configuration>
       <Platform>Win32</Platform>
@@ -13,9 +21,17 @@
       <Configuration>MinSizeRel</Configuration>
       <Platform>Win32</Platform>
     </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
     <ProjectConfiguration Include="RelWithDebInfo|Win32">
       <Configuration>RelWithDebInfo</Configuration>
       <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -31,7 +47,19 @@
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>Intel C++ Compiler XE 15.0</PlatformToolset>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>Intel C++ Compiler XE 15.0</PlatformToolset>
+  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>Intel C++ Compiler XE 15.0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
@@ -43,7 +71,19 @@
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>Intel C++ Compiler XE 15.0</PlatformToolset>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>Intel C++ Compiler XE 15.0</PlatformToolset>
+  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>Intel C++ Compiler XE 15.0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
@@ -58,34 +98,66 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">git2</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">git2</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</IntDir>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">git2</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">git2</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</IntDir>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">git2</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">git2</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</IntDir>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">git2</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">git2</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <OutDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</OutDir>
+    <IntDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</OutDir>
+    <IntDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <OutDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</OutDir>
+    <IntDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</OutDir>
+    <IntDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\libgit2\src;C:\SFTdevelopment\library\ext\src\libgit2\include;C:\SFTdevelopment\library\ext\src\libgit2\deps\regex;C:\SFTdevelopment\library\ext\src\libgit2\deps\http-parser;C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib;C:\SFTdevelopment\library\ext\src\libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsC</CompileAs>
@@ -107,10 +179,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_DEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;GIT_WINHTTP;WIN32_SHA1;NO_VIZ;STDC;NO_GZIP;HAVE_QSORT_S;GIT_THREADS;GIT_USE_NSEC;_FILE_OFFSET_BITS=64;WIN32;_WIN32_WINNT=0x0501;GIT_ARCH_32;CLAR_FIXTURE_PATH=\"C:/SFTdevelopment/library/ext/src/libgit2/tests/resources/\";CLAR_RESOURCES=\"\";CLAR_TMPDIR=\"libgit2_tests\";CMAKE_INTDIR=\"Debug\";git2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\libgit2\src;C:\SFTdevelopment\library\ext\src\libgit2\include;C:\SFTdevelopment\library\ext\src\libgit2\deps\regex;C:\SFTdevelopment\library\ext\src\libgit2\deps\http-parser;C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib;C:\SFTdevelopment\library\ext\src\libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\libgit2\src;C:\SFTdevelopment\library\ext\src\libgit2\include;C:\SFTdevelopment\library\ext\src\libgit2\deps\regex;C:\SFTdevelopment\library\ext\src\libgit2\deps\http-parser;C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib;C:\SFTdevelopment\library\ext\src\libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -123,13 +195,65 @@
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>..\..\lib$(PlatformArchitecture)\$(Configuration)\$(ProjectName).lib</ImportLibrary>
+      <ImportLibrary>../../lib$(PlatformArchitecture)/$(Configuration)/$(ProjectName).lib</ImportLibrary>
       <LargeAddressAware>true</LargeAddressAware>
       <ProgramDataBaseFile>C:/SFTdevelopment/library/ext/src/libgit2/Debug/git2.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress>true</RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
       <Version>0.25</Version>
-      <OutputFile>..\..\dll$(PlatformArchitecture)\$(Configuration)\$(ProjectName)$(TargetExt)</OutputFile>
+      <OutputFile>../../dll$(PlatformArchitecture)/$(Configuration)/$(ProjectName)$(TargetExt)</OutputFile>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForcedIncludeFiles>precompiled.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precompiled.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_DEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;GIT_WINHTTP;WIN32_SHA1;NO_VIZ;STDC;NO_GZIP;HAVE_QSORT_S;GIT_THREADS;GIT_USE_NSEC;_FILE_OFFSET_BITS=64;WIN32;_WIN32_WINNT=0x0501;GIT_ARCH_32;CLAR_FIXTURE_PATH="C:/SFTdevelopment/library/ext/src/libgit2/tests/resources/";CLAR_RESOURCES="";CLAR_TMPDIR="libgit2_tests";CMAKE_INTDIR="Debug";git2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_DEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;GIT_WINHTTP;WIN32_SHA1;NO_VIZ;STDC;NO_GZIP;HAVE_QSORT_S;GIT_THREADS;GIT_USE_NSEC;_FILE_OFFSET_BITS=64;WIN32;_WIN32_WINNT=0x0501;GIT_ARCH_32;CLAR_FIXTURE_PATH=\"C:/SFTdevelopment/library/ext/src/libgit2/tests/resources/\";CLAR_RESOURCES=\"\";CLAR_TMPDIR=\"libgit2_tests\";CMAKE_INTDIR=\"Debug\";git2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winhttp.lib;rpcrt4.lib;crypt32.lib;ole32.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>../../lib$(PlatformArchitecture)/$(Configuration)/$(ProjectName).lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>C:/SFTdevelopment/library/ext/src/libgit2/Debug/git2.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <Version>0.25</Version>
+      <OutputFile>../../dll$(PlatformArchitecture)/$(Configuration)/$(ProjectName)$(TargetExt)</OutputFile>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -137,7 +261,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\libgit2\src;C:\SFTdevelopment\library\ext\src\libgit2\include;C:\SFTdevelopment\library\ext\src\libgit2\deps\regex;C:\SFTdevelopment\library\ext\src\libgit2\deps\http-parser;C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib;C:\SFTdevelopment\library\ext\src\libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
@@ -161,10 +285,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;GIT_WINHTTP;WIN32_SHA1;NO_VIZ;STDC;NO_GZIP;HAVE_QSORT_S;GIT_THREADS;GIT_USE_NSEC;_FILE_OFFSET_BITS=64;WIN32;_WIN32_WINNT=0x0501;GIT_ARCH_32;CLAR_FIXTURE_PATH=\"C:/SFTdevelopment/library/ext/src/libgit2/tests/resources/\";CLAR_RESOURCES=\"\";CLAR_TMPDIR=\"libgit2_tests\";CMAKE_INTDIR=\"Release\";git2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\libgit2\src;C:\SFTdevelopment\library\ext\src\libgit2\include;C:\SFTdevelopment\library\ext\src\libgit2\deps\regex;C:\SFTdevelopment\library\ext\src\libgit2\deps\http-parser;C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib;C:\SFTdevelopment\library\ext\src\libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\libgit2\src;C:\SFTdevelopment\library\ext\src\libgit2\include;C:\SFTdevelopment\library\ext\src\libgit2\deps\regex;C:\SFTdevelopment\library\ext\src\libgit2\deps\http-parser;C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib;C:\SFTdevelopment\library\ext\src\libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -178,7 +302,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>..\..\lib$(PlatformArchitecture)\$(Configuration)\$(ProjectName).lib</ImportLibrary>
+      <ImportLibrary>../../lib$(PlatformArchitecture)/$(Configuration)/$(ProjectName).lib</ImportLibrary>
       <LargeAddressAware>true</LargeAddressAware>
       <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
       <OptimizeReferences>true</OptimizeReferences>
@@ -187,7 +311,65 @@
       <SetChecksum>true</SetChecksum>
       <SubSystem>Console</SubSystem>
       <Version>0.25</Version>
-      <OutputFile>..\..\dll$(PlatformArchitecture)\$(Configuration)\$(ProjectName)$(TargetExt)</OutputFile>
+      <OutputFile>../../dll$(PlatformArchitecture)/$(Configuration)/$(ProjectName)$(TargetExt)</OutputFile>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForcedIncludeFiles>precompiled.h</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precompiled.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;GIT_WINHTTP;WIN32_SHA1;NO_VIZ;STDC;NO_GZIP;HAVE_QSORT_S;GIT_THREADS;GIT_USE_NSEC;_FILE_OFFSET_BITS=64;WIN32;_WIN32_WINNT=0x0501;GIT_ARCH_32;CLAR_FIXTURE_PATH="C:/SFTdevelopment/library/ext/src/libgit2/tests/resources/";CLAR_RESOURCES="";CLAR_TMPDIR="libgit2_tests";CMAKE_INTDIR="Release";git2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;GIT_WINHTTP;WIN32_SHA1;NO_VIZ;STDC;NO_GZIP;HAVE_QSORT_S;GIT_THREADS;GIT_USE_NSEC;_FILE_OFFSET_BITS=64;WIN32;_WIN32_WINNT=0x0501;GIT_ARCH_32;CLAR_FIXTURE_PATH=\"C:/SFTdevelopment/library/ext/src/libgit2/tests/resources/\";CLAR_RESOURCES=\"\";CLAR_TMPDIR=\"libgit2_tests\";CMAKE_INTDIR=\"Release\";git2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winhttp.lib;rpcrt4.lib;crypt32.lib;ole32.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>../../lib$(PlatformArchitecture)/$(Configuration)/$(ProjectName).lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/SFTdevelopment/library/ext/src/libgit2/Release/git2.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SetChecksum>true</SetChecksum>
+      <SubSystem>Console</SubSystem>
+      <Version>0.25</Version>
+      <OutputFile>../../dll$(PlatformArchitecture)/$(Configuration)/$(ProjectName)$(TargetExt)</OutputFile>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -195,7 +377,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\libgit2\src;C:\SFTdevelopment\library\ext\src\libgit2\include;C:\SFTdevelopment\library\ext\src\libgit2\deps\regex;C:\SFTdevelopment\library\ext\src\libgit2\deps\http-parser;C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib;C:\SFTdevelopment\library\ext\src\libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
@@ -219,10 +401,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;GIT_WINHTTP;WIN32_SHA1;NO_VIZ;STDC;NO_GZIP;HAVE_QSORT_S;GIT_THREADS;GIT_USE_NSEC;_FILE_OFFSET_BITS=64;WIN32;_WIN32_WINNT=0x0501;GIT_ARCH_32;CLAR_FIXTURE_PATH=\"C:/SFTdevelopment/library/ext/src/libgit2/tests/resources/\";CLAR_RESOURCES=\"\";CLAR_TMPDIR=\"libgit2_tests\";CMAKE_INTDIR=\"MinSizeRel\";git2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\libgit2\src;C:\SFTdevelopment\library\ext\src\libgit2\include;C:\SFTdevelopment\library\ext\src\libgit2\deps\regex;C:\SFTdevelopment\library\ext\src\libgit2\deps\http-parser;C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib;C:\SFTdevelopment\library\ext\src\libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\libgit2\src;C:\SFTdevelopment\library\ext\src\libgit2\include;C:\SFTdevelopment\library\ext\src\libgit2\deps\regex;C:\SFTdevelopment\library\ext\src\libgit2\deps\http-parser;C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib;C:\SFTdevelopment\library\ext\src\libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -236,7 +418,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>..\..\lib$(PlatformArchitecture)\$(Configuration)\$(ProjectName).lib</ImportLibrary>
+      <ImportLibrary>../../lib$(PlatformArchitecture)/$(Configuration)/$(ProjectName).lib</ImportLibrary>
       <LargeAddressAware>true</LargeAddressAware>
       <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
       <OptimizeReferences>true</OptimizeReferences>
@@ -245,7 +427,65 @@
       <SetChecksum>true</SetChecksum>
       <SubSystem>Console</SubSystem>
       <Version>0.25</Version>
-      <OutputFile>..\..\dll$(PlatformArchitecture)\$(Configuration)\$(ProjectName)$(TargetExt)</OutputFile>
+      <OutputFile>../../dll$(PlatformArchitecture)/$(Configuration)/$(ProjectName)$(TargetExt)</OutputFile>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForcedIncludeFiles>precompiled.h</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precompiled.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;GIT_WINHTTP;WIN32_SHA1;NO_VIZ;STDC;NO_GZIP;HAVE_QSORT_S;GIT_THREADS;GIT_USE_NSEC;_FILE_OFFSET_BITS=64;WIN32;_WIN32_WINNT=0x0501;GIT_ARCH_32;CLAR_FIXTURE_PATH="C:/SFTdevelopment/library/ext/src/libgit2/tests/resources/";CLAR_RESOURCES="";CLAR_TMPDIR="libgit2_tests";CMAKE_INTDIR="MinSizeRel";git2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;GIT_WINHTTP;WIN32_SHA1;NO_VIZ;STDC;NO_GZIP;HAVE_QSORT_S;GIT_THREADS;GIT_USE_NSEC;_FILE_OFFSET_BITS=64;WIN32;_WIN32_WINNT=0x0501;GIT_ARCH_32;CLAR_FIXTURE_PATH=\"C:/SFTdevelopment/library/ext/src/libgit2/tests/resources/\";CLAR_RESOURCES=\"\";CLAR_TMPDIR=\"libgit2_tests\";CMAKE_INTDIR=\"MinSizeRel\";git2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winhttp.lib;rpcrt4.lib;crypt32.lib;ole32.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>../../lib$(PlatformArchitecture)/$(Configuration)/$(ProjectName).lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/SFTdevelopment/library/ext/src/libgit2/MinSizeRel/git2.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SetChecksum>true</SetChecksum>
+      <SubSystem>Console</SubSystem>
+      <Version>0.25</Version>
+      <OutputFile>../../dll$(PlatformArchitecture)/$(Configuration)/$(ProjectName)$(TargetExt)</OutputFile>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -253,7 +493,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\libgit2\src;C:\SFTdevelopment\library\ext\src\libgit2\include;C:\SFTdevelopment\library\ext\src\libgit2\deps\regex;C:\SFTdevelopment\library\ext\src\libgit2\deps\http-parser;C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib;C:\SFTdevelopment\library\ext\src\libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -276,10 +516,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;GIT_WINHTTP;WIN32_SHA1;NO_VIZ;STDC;NO_GZIP;HAVE_QSORT_S;GIT_THREADS;GIT_USE_NSEC;_FILE_OFFSET_BITS=64;WIN32;_WIN32_WINNT=0x0501;GIT_ARCH_32;CLAR_FIXTURE_PATH=\"C:/SFTdevelopment/library/ext/src/libgit2/tests/resources/\";CLAR_RESOURCES=\"\";CLAR_TMPDIR=\"libgit2_tests\";CMAKE_INTDIR=\"RelWithDebInfo\";git2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\libgit2\src;C:\SFTdevelopment\library\ext\src\libgit2\include;C:\SFTdevelopment\library\ext\src\libgit2\deps\regex;C:\SFTdevelopment\library\ext\src\libgit2\deps\http-parser;C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib;C:\SFTdevelopment\library\ext\src\libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\libgit2\src;C:\SFTdevelopment\library\ext\src\libgit2\include;C:\SFTdevelopment\library\ext\src\libgit2\deps\regex;C:\SFTdevelopment\library\ext\src\libgit2\deps\http-parser;C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib;C:\SFTdevelopment\library\ext\src\libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -294,7 +534,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>..\..\lib$(PlatformArchitecture)\$(Configuration)\$(ProjectName).lib</ImportLibrary>
+      <ImportLibrary>../../lib$(PlatformArchitecture)/$(Configuration)/$(ProjectName).lib</ImportLibrary>
       <LargeAddressAware>true</LargeAddressAware>
       <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
       <OptimizeReferences>true</OptimizeReferences>
@@ -303,17 +543,76 @@
       <SetChecksum>true</SetChecksum>
       <SubSystem>Console</SubSystem>
       <Version>0.25</Version>
-      <OutputFile>..\..\dll$(PlatformArchitecture)\$(Configuration)\$(ProjectName)$(TargetExt)</OutputFile>
+      <OutputFile>../../dll$(PlatformArchitecture)/$(Configuration)/$(ProjectName)$(TargetExt)</OutputFile>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForcedIncludeFiles>precompiled.h</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precompiled.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;GIT_WINHTTP;WIN32_SHA1;NO_VIZ;STDC;NO_GZIP;HAVE_QSORT_S;GIT_THREADS;GIT_USE_NSEC;_FILE_OFFSET_BITS=64;WIN32;_WIN32_WINNT=0x0501;GIT_ARCH_32;CLAR_FIXTURE_PATH="C:/SFTdevelopment/library/ext/src/libgit2/tests/resources/";CLAR_RESOURCES="";CLAR_TMPDIR="libgit2_tests";CMAKE_INTDIR="RelWithDebInfo";git2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;GIT_WINHTTP;WIN32_SHA1;NO_VIZ;STDC;NO_GZIP;HAVE_QSORT_S;GIT_THREADS;GIT_USE_NSEC;_FILE_OFFSET_BITS=64;WIN32;_WIN32_WINNT=0x0501;GIT_ARCH_32;CLAR_FIXTURE_PATH=\"C:/SFTdevelopment/library/ext/src/libgit2/tests/resources/\";CLAR_RESOURCES=\"\";CLAR_TMPDIR=\"libgit2_tests\";CMAKE_INTDIR=\"RelWithDebInfo\";git2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /DEBUGTYPE:cv,fixup %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winhttp.lib;rpcrt4.lib;crypt32.lib;ole32.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>../../lib$(PlatformArchitecture)/$(Configuration)/$(ProjectName).lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/SFTdevelopment/library/ext/src/libgit2/RelWithDebInfo/git2.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SetChecksum>true</SetChecksum>
+      <SubSystem>Console</SubSystem>
+      <Version>0.25</Version>
+      <OutputFile>../../dll$(PlatformArchitecture)/$(Configuration)/$(ProjectName)$(TargetExt)</OutputFile>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\SFTdevelopment\library\ext\src\libgit2\CMakeLists.txt">
+    <CustomBuild Include="C:\SFTdevelopment/library/ext/src/libgit2\CMakeLists.txt">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/SFTdevelopment/library/ext/src/libgit2 -BC:/SFTdevelopment/library/ext/src/libgit2 --check-stamp-file C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/SFTdevelopment/library/ext/src/libgit2 -BC:/SFTdevelopment/library/ext/src/libgit2 --check-stamp-file C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -321,12 +620,25 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt;C:\SFTdevelopment\library\ext\src\libgit2\CMakeLists.txt;C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\SFTdevelopment\library\ext\src\libgit2\cmake\Modules\AddCFlagIfSupported.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment\library\ext\src\libgit2\cmake\Modules\FindHTTP_Parser.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment\library\ext\src\libgit2\libgit2.pc.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment\library\ext\src\libgit2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\generate.stamp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/SFTdevelopment/library/ext/src/libgit2 -BC:/SFTdevelopment/library/ext/src/libgit2 --check-stamp-file C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt;C:\SFTdevelopment/library/ext/src/libgit2\CMakeLists.txt;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\SFTdevelopment/library/ext/src/libgit2\cmake\Modules\AddCFlagIfSupported.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\cmake\Modules\FindHTTP_Parser.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\libgit2.pc.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt;C:\SFTdevelopment/library/ext/src/libgit2\CMakeLists.txt;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\SFTdevelopment/library/ext/src/libgit2\cmake\Modules\AddCFlagIfSupported.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\cmake\Modules\FindHTTP_Parser.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\libgit2.pc.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/SFTdevelopment/library/ext/src/libgit2 -BC:/SFTdevelopment/library/ext/src/libgit2 --check-stamp-file C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/SFTdevelopment/library/ext/src/libgit2 -BC:/SFTdevelopment/library/ext/src/libgit2 --check-stamp-file C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -334,12 +646,25 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt;C:\SFTdevelopment\library\ext\src\libgit2\CMakeLists.txt;C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\SFTdevelopment\library\ext\src\libgit2\cmake\Modules\AddCFlagIfSupported.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment\library\ext\src\libgit2\cmake\Modules\FindHTTP_Parser.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment\library\ext\src\libgit2\libgit2.pc.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment\library\ext\src\libgit2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\generate.stamp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/SFTdevelopment/library/ext/src/libgit2 -BC:/SFTdevelopment/library/ext/src/libgit2 --check-stamp-file C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt;C:\SFTdevelopment/library/ext/src/libgit2\CMakeLists.txt;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\SFTdevelopment/library/ext/src/libgit2\cmake\Modules\AddCFlagIfSupported.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\cmake\Modules\FindHTTP_Parser.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\libgit2.pc.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt;C:\SFTdevelopment/library/ext/src/libgit2\CMakeLists.txt;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\SFTdevelopment/library/ext/src/libgit2\cmake\Modules\AddCFlagIfSupported.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\cmake\Modules\FindHTTP_Parser.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\libgit2.pc.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/SFTdevelopment/library/ext/src/libgit2 -BC:/SFTdevelopment/library/ext/src/libgit2 --check-stamp-file C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/SFTdevelopment/library/ext/src/libgit2 -BC:/SFTdevelopment/library/ext/src/libgit2 --check-stamp-file C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -347,12 +672,25 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt;C:\SFTdevelopment\library\ext\src\libgit2\CMakeLists.txt;C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\SFTdevelopment\library\ext\src\libgit2\cmake\Modules\AddCFlagIfSupported.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment\library\ext\src\libgit2\cmake\Modules\FindHTTP_Parser.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment\library\ext\src\libgit2\libgit2.pc.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment\library\ext\src\libgit2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\generate.stamp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/SFTdevelopment/library/ext/src/libgit2 -BC:/SFTdevelopment/library/ext/src/libgit2 --check-stamp-file C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt;C:\SFTdevelopment/library/ext/src/libgit2\CMakeLists.txt;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\SFTdevelopment/library/ext/src/libgit2\cmake\Modules\AddCFlagIfSupported.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\cmake\Modules\FindHTTP_Parser.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\libgit2.pc.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt;C:\SFTdevelopment/library/ext/src/libgit2\CMakeLists.txt;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\SFTdevelopment/library/ext/src/libgit2\cmake\Modules\AddCFlagIfSupported.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\cmake\Modules\FindHTTP_Parser.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\libgit2.pc.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/SFTdevelopment/library/ext/src/libgit2 -BC:/SFTdevelopment/library/ext/src/libgit2 --check-stamp-file C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/SFTdevelopment/library/ext/src/libgit2 -BC:/SFTdevelopment/library/ext/src/libgit2 --check-stamp-file C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -360,403 +698,423 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt;C:\SFTdevelopment\library\ext\src\libgit2\CMakeLists.txt;C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\SFTdevelopment\library\ext\src\libgit2\cmake\Modules\AddCFlagIfSupported.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment\library\ext\src\libgit2\cmake\Modules\FindHTTP_Parser.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment\library\ext\src\libgit2\libgit2.pc.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment\library\ext\src\libgit2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\generate.stamp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/SFTdevelopment/library/ext/src/libgit2 -BC:/SFTdevelopment/library/ext/src/libgit2 --check-stamp-file C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt;C:\SFTdevelopment/library/ext/src/libgit2\CMakeLists.txt;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\SFTdevelopment/library/ext/src/libgit2\cmake\Modules\AddCFlagIfSupported.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\cmake\Modules\FindHTTP_Parser.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\libgit2.pc.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/SFTdevelopment/library/ext/src/libgit2/CMakeLists.txt;C:\SFTdevelopment/library/ext/src/libgit2\CMakeLists.txt;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\SFTdevelopment/library/ext/src/libgit2\cmake\Modules\AddCFlagIfSupported.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\cmake\Modules\FindHTTP_Parser.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\libgit2.pc.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\SFTdevelopment/library/ext/src/libgit2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\annotated_commit.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\attr.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\blame.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\blob.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\branch.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\buffer.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\checkout.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\cherrypick.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\clone.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\commit.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\common.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\config.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\cred_helpers.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\describe.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\diff.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\errors.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\filter.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\global.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\graph.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\ignore.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\index.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\indexer.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\inttypes.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\merge.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\message.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\net.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\notes.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\object.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\odb.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\odb_backend.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\oid.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\oidarray.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\pack.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\patch.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\pathspec.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\proxy.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\rebase.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\refdb.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\reflog.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\refs.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\refspec.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\remote.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\repository.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\reset.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\revert.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\revparse.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\revwalk.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\signature.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\stash.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\status.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\stdint.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\strarray.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\submodule.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\tag.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\trace.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\transaction.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\transport.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\tree.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\types.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\version.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\commit.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\config.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\diff.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\filter.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\hashsig.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\index.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\mempack.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\merge.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\odb_backend.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\openssl.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\refdb_backend.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\reflog.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\refs.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\remote.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\repository.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\stream.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\time.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\transport.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\annotated_commit.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\apply.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\array.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\attr.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\attr_file.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\attrcache.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\bitvec.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\blame.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\blame_git.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\blob.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\branch.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\buf_text.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\buffer.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\cache.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\cc-compat.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\checkout.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\clone.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\commit.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\commit_list.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\common.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\config.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\config_file.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\curl_stream.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\delta.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_driver.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_file.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_generate.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_parse.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_tform.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_xdiff.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\fetch.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\fetchhead.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\filebuf.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\fileops.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\filter.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\fnmatch.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\global.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\hash.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\idxmap.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\ignore.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\index.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\integer.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\iterator.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\khash.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\map.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\merge.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\merge_driver.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\message.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\mwindow.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\netops.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\notes.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\object.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\odb.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\offmap.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\oid.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\oidarray.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\oidmap.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\openssl_stream.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\pack-objects.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\pack.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\patch.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\patch_generate.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\patch_parse.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\path.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\pathspec.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\pool.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\posix.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\pqueue.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\proxy.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\push.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\refdb.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\refdb_fs.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\reflog.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\refs.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\refspec.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\remote.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\repo_template.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\repository.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\revwalk.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\sha1_lookup.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\signature.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\socket_stream.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\sortedcache.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\status.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\stransport_stream.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\stream.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\strmap.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\strnlen.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\submodule.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\sysdir.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\tag.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\thread-utils.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\tls_stream.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\trace.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transaction.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\tree-cache.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\tree.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\userdiff.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\util.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\varint.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\vector.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\zstream.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\auth.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\auth_negotiate.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\cred.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\smart.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\ssh.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xdiff.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xdiffi.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xemit.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xinclude.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xmacros.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xprepare.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xtypes.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xutils.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\dir.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\error.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\findfile.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\mingw-compat.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\msvc-compat.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\path_w32.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\posix.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\precompiled.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\reparse.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\thread.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\utf-conv.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\version.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\w32_buffer.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\w32_crtdbg_stacktrace.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\w32_stack.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\w32_util.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\win32-compat.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\crc32.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\deflate.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\inffast.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\inffixed.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\inflate.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\inftrees.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\trees.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\zconf.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\zlib.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\zutil.h" />
-    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\http-parser\http_parser.h" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\annotated_commit.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\apply.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\attr.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\attr_file.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\attrcache.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\blame.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\blame_git.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\blob.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\branch.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\buf_text.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\buffer.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\cache.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\checkout.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\cherrypick.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\clone.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\commit.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\commit_list.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\config.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\config_cache.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\config_file.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\crlf.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\curl_stream.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\date.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\delta.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\describe.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_driver.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_file.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_generate.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_parse.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_print.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_stats.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_tform.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_xdiff.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\errors.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\fetch.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\fetchhead.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\filebuf.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\fileops.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\filter.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\fnmatch.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\global.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\graph.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\hash.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\hashsig.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\ident.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\ignore.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\index.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\indexer.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\iterator.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\merge.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\merge_driver.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\merge_file.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\message.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\mwindow.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\netops.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\notes.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\object.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\object_api.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\odb.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\odb_loose.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\odb_mempack.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\odb_pack.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\oid.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\oidarray.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\openssl_stream.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\pack-objects.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\pack.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\patch.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\patch_generate.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\patch_parse.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\path.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\pathspec.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\pool.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\posix.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\pqueue.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\proxy.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\push.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\rebase.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\refdb.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\refdb_fs.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\reflog.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\refs.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\refspec.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\remote.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\repository.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\reset.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\revert.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\revparse.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\revwalk.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\settings.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\sha1_lookup.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\signature.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\socket_stream.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\sortedcache.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\stash.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\status.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\stransport_stream.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\strmap.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\submodule.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\sysdir.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\tag.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\thread-utils.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\tls_stream.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\trace.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transaction.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transport.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\tree-cache.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\tree.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\tsort.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\util.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\varint.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\vector.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\zstream.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\auth.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\auth_negotiate.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\cred.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\cred_helpers.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\git.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\http.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\local.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\smart.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\smart_pkt.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\smart_protocol.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\ssh.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\winhttp.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xdiffi.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xemit.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xhistogram.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xmerge.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xpatience.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xprepare.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xutils.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\dir.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\error.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\findfile.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\map.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\path_w32.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\posix_w32.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\precompiled.c">
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\annotated_commit.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\attr.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\blame.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\blob.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\branch.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\buffer.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\checkout.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\cherrypick.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\clone.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\commit.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\common.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\config.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\cred_helpers.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\describe.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\diff.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\errors.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\filter.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\global.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\graph.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\ignore.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\index.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\indexer.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\inttypes.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\merge.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\message.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\net.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\notes.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\object.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\odb.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\odb_backend.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\oid.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\oidarray.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\pack.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\patch.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\pathspec.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\proxy.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\rebase.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\refdb.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\reflog.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\refs.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\refspec.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\remote.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\repository.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\reset.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\revert.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\revparse.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\revwalk.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\signature.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\stash.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\status.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\stdint.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\strarray.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\submodule.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\tag.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\trace.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\transaction.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\transport.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\tree.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\types.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\version.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\commit.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\config.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\diff.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\filter.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\hashsig.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\index.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\mempack.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\merge.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\odb_backend.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\openssl.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\refdb_backend.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\reflog.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\refs.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\remote.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\repository.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\stream.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\time.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\transport.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/annotated_commit.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/apply.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/array.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/attr.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/attr_file.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/attrcache.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/bitvec.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/blame.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/blame_git.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/blob.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/branch.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/buf_text.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/buffer.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/cache.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/cc-compat.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/checkout.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/clone.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/commit.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/commit_list.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/common.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/config.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/config_file.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/curl_stream.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/delta.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_driver.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_file.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_generate.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_parse.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_tform.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_xdiff.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/fetch.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/fetchhead.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/filebuf.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/fileops.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/filter.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/fnmatch.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/global.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/hash.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/idxmap.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/ignore.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/index.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/integer.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/iterator.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/khash.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/map.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/merge.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/merge_driver.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/message.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/mwindow.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/netops.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/notes.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/object.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/odb.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/offmap.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/oid.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/oidarray.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/oidmap.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/openssl_stream.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/pack-objects.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/pack.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/patch.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/patch_generate.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/patch_parse.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/path.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/pathspec.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/pool.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/posix.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/pqueue.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/proxy.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/push.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/refdb.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/refdb_fs.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/reflog.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/refs.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/refspec.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/remote.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/repo_template.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/repository.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/revwalk.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/sha1_lookup.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/signature.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/socket_stream.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/sortedcache.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/status.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/stransport_stream.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/stream.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/strmap.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/strnlen.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/submodule.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/sysdir.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/tag.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/thread-utils.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/tls_stream.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/trace.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transaction.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/tree-cache.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/tree.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/userdiff.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/util.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/varint.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/vector.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/zstream.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\auth.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\auth_negotiate.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\cred.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\smart.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\ssh.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xdiff.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xdiffi.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xemit.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xinclude.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xmacros.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xprepare.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xtypes.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xutils.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\dir.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\error.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\findfile.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\mingw-compat.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\msvc-compat.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\path_w32.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\posix.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\precompiled.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\reparse.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\thread.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\utf-conv.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\version.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\w32_buffer.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\w32_crtdbg_stacktrace.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\w32_stack.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\w32_util.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\win32-compat.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\crc32.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\deflate.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\inffast.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\inffixed.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\inflate.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\inftrees.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\trees.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\zconf.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\zlib.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\zutil.h" />
+    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser\http_parser.h" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/annotated_commit.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/apply.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/attr.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/attr_file.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/attrcache.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/blame.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/blame_git.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/blob.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/branch.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/buf_text.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/buffer.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/cache.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/checkout.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/cherrypick.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/clone.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/commit.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/commit_list.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/config.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/config_cache.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/config_file.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/crlf.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/curl_stream.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/date.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/delta.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/describe.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_driver.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_file.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_generate.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_parse.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_print.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_stats.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_tform.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_xdiff.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/errors.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/fetch.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/fetchhead.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/filebuf.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/fileops.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/filter.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/fnmatch.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/global.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/graph.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/hash.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/hashsig.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/ident.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/ignore.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/index.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/indexer.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/iterator.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/merge.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/merge_driver.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/merge_file.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/message.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/mwindow.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/netops.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/notes.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/object.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/object_api.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/odb.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/odb_loose.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/odb_mempack.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/odb_pack.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/oid.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/oidarray.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/openssl_stream.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/pack-objects.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/pack.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/patch.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/patch_generate.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/patch_parse.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/path.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/pathspec.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/pool.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/posix.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/pqueue.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/proxy.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/push.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/rebase.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/refdb.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/refdb_fs.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/reflog.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/refs.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/refspec.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/remote.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/repository.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/reset.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/revert.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/revparse.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/revwalk.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/settings.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/sha1_lookup.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/signature.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/socket_stream.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/sortedcache.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/stash.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/status.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/stransport_stream.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/strmap.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/submodule.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/sysdir.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/tag.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/thread-utils.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/tls_stream.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/trace.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transaction.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transport.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/tree-cache.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/tree.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/tsort.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/util.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/varint.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/vector.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/zstream.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\auth.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\auth_negotiate.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\cred.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\cred_helpers.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\git.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\http.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\local.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\smart.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\smart_pkt.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\smart_protocol.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\ssh.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\winhttp.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xdiffi.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xemit.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xhistogram.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xmerge.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xpatience.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xprepare.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xutils.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\dir.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\error.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\findfile.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\map.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\path_w32.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\posix_w32.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\precompiled.c">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">precompiled.h</PrecompiledHeaderFile>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">precompiled.h</PrecompiledHeaderFile>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">precompiled.h</PrecompiledHeaderFile>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">precompiled.h</PrecompiledHeaderFile>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\thread.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\utf-conv.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\w32_buffer.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\w32_crtdbg_stacktrace.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\w32_stack.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\w32_util.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\adler32.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\crc32.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\deflate.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\infback.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\inffast.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\inflate.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\inftrees.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\trees.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\zutil.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\http-parser\http_parser.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\regex\regex.c" />
-    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\hash\hash_win32.c" />
-    <ResourceCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\git2.rc" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\thread.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\utf-conv.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\w32_buffer.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\w32_crtdbg_stacktrace.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\w32_stack.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\w32_util.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\adler32.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\crc32.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\deflate.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\infback.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\inffast.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\inflate.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\inftrees.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\trees.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\zutil.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser\http_parser.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\regex\regex.c" />
+    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/hash\hash_win32.c" />
+    <ResourceCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\git2.rc" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/SFTdevelopment/library/ext/src/libgit2/ZERO_CHECK.vcxproj">
