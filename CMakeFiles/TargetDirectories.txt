@@ -1,6 +1,0 @@
-C:/SFTdevelopment/library/ext/src/libgit2/CMakeFiles/git2.dir
-C:/SFTdevelopment/library/ext/src/libgit2/CMakeFiles/libgit2_clar.dir
-C:/SFTdevelopment/library/ext/src/libgit2/CMakeFiles/RUN_TESTS.dir
-C:/SFTdevelopment/library/ext/src/libgit2/CMakeFiles/INSTALL.dir
-C:/SFTdevelopment/library/ext/src/libgit2/CMakeFiles/ALL_BUILD.dir
-C:/SFTdevelopment/library/ext/src/libgit2/CMakeFiles/ZERO_CHECK.dir

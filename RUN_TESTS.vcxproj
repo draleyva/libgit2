@@ -19,33 +19,30 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{4EFFF772-7048-3E85-9BF3-85FBE858CEEC}</ProjectGUID>
+    <ProjectGuid>{4EFFF772-7048-3E85-9BF3-85FBE858CEEC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>RUN_TESTS</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
-    <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
-    <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
-    <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
-    <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
@@ -56,16 +53,16 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-    <PropertyGroup>
-      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)/$(Configuration)/$(ProjectName)\</IntDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)/$(Configuration)/$(ProjectName)\</IntDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)/$(Configuration)/$(ProjectName)\</IntDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)/$(Configuration)/$(ProjectName)\</IntDir>
-    </PropertyGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\libgit2\src;C:\SFTdevelopment\library\ext\src\libgit2\include;C:\SFTdevelopment\library\ext\src\libgit2\deps\regex;C:\SFTdevelopment\library\ext\src\libgit2\deps\http-parser;C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib;C:\SFTdevelopment\library\ext\src\libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -87,7 +84,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\libgit2\src;C:\SFTdevelopment\library\ext\src\libgit2\include;C:\SFTdevelopment\library\ext\src\libgit2\deps\regex;C:\SFTdevelopment\library\ext\src\libgit2\deps\http-parser;C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib;C:\SFTdevelopment\library\ext\src\libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -109,7 +106,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\libgit2\src;C:\SFTdevelopment\library\ext\src\libgit2\include;C:\SFTdevelopment\library\ext\src\libgit2\deps\regex;C:\SFTdevelopment\library\ext\src\libgit2\deps\http-parser;C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib;C:\SFTdevelopment\library\ext\src\libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -131,7 +128,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\SFTdevelopment/library/ext/src/libgit2/src;C:\SFTdevelopment/library/ext/src/libgit2\include;C:\SFTdevelopment/library/ext/src/libgit2\deps\regex;C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser;C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib;C:\SFTdevelopment/library/ext/src/libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\libgit2\src;C:\SFTdevelopment\library\ext\src\libgit2\include;C:\SFTdevelopment\library\ext\src\libgit2\deps\regex;C:\SFTdevelopment\library\ext\src\libgit2\deps\http-parser;C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib;C:\SFTdevelopment\library\ext\src\libgit2\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -152,7 +149,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\7b16b8aed27ed904df8ee50588be4562\RUN_TESTS_force.rule">
+    <CustomBuild Include="C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\7b16b8aed27ed904df8ee50588be4562\RUN_TESTS_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
 cd .
@@ -164,7 +161,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/SFTdevelopment/library/ext/src/libgit2/CMakeFiles/7b16b8aed27ed904df8ee50588be4562/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\RUN_TESTS_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\RUN_TESTS_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
@@ -177,7 +174,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/SFTdevelopment/library/ext/src/libgit2/CMakeFiles/7b16b8aed27ed904df8ee50588be4562/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\RUN_TESTS_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\RUN_TESTS_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
@@ -190,7 +187,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/SFTdevelopment/library/ext/src/libgit2/CMakeFiles/7b16b8aed27ed904df8ee50588be4562/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\RUN_TESTS_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\RUN_TESTS_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
@@ -203,13 +200,14 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/SFTdevelopment/library/ext/src/libgit2/CMakeFiles/7b16b8aed27ed904df8ee50588be4562/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\RUN_TESTS_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\RUN_TESTS_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/SFTdevelopment/library/ext/src/libgit2/ZERO_CHECK.vcxproj">
-      <Project>BD31C7F0-2C2E-3D4B-AEC0-0603B53FAEBA</Project>
+    <ProjectReference Include="C:\SFTdevelopment\library\ext\src\libgit2\ZERO_CHECK.vcxproj">
+      <Project>{BD31C7F0-2C2E-3D4B-AEC0-0603B53FAEBA}</Project>
+      <Name>ZERO_CHECK</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,2301 +1,2310 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/annotated_commit.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\annotated_commit.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/apply.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\apply.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/attr.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\attr.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/attr_file.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\attr_file.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/attrcache.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\attrcache.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/blame.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\blame.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/blame_git.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\blame_git.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/blob.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\blob.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/branch.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\branch.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/buf_text.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\buf_text.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/buffer.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\buffer.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/cache.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\cache.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/checkout.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\checkout.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/cherrypick.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\cherrypick.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/clone.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\clone.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/commit.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\commit.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/commit_list.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\commit_list.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/config.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\config.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/config_cache.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\config_cache.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/config_file.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\config_file.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/crlf.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\crlf.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/curl_stream.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\curl_stream.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/date.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\date.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/delta.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\delta.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/describe.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\describe.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_driver.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_driver.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_file.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_file.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_generate.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_generate.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_parse.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_parse.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_print.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_print.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_stats.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_stats.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_tform.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_tform.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_xdiff.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_xdiff.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/errors.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\errors.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/fetch.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\fetch.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/fetchhead.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\fetchhead.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/filebuf.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\filebuf.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/fileops.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\fileops.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/filter.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\filter.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/fnmatch.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\fnmatch.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/global.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\global.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/graph.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\graph.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/hash.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\hash.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/hashsig.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\hashsig.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/ident.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\ident.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/ignore.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\ignore.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/index.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\index.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/indexer.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\indexer.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/iterator.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\iterator.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/merge.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\merge.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/merge_driver.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\merge_driver.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/merge_file.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\merge_file.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/message.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\message.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/mwindow.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\mwindow.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/netops.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\netops.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/notes.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\notes.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/object.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\object.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/object_api.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\object_api.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/odb.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\odb.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/odb_loose.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\odb_loose.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/odb_mempack.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\odb_mempack.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/odb_pack.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\odb_pack.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/oid.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\oid.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/oidarray.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\oidarray.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/openssl_stream.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\openssl_stream.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/pack-objects.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\pack-objects.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/pack.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\pack.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/patch.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\patch.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/patch_generate.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\patch_generate.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/patch_parse.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\patch_parse.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/path.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\path.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/pathspec.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\pathspec.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/pool.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\pool.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/posix.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\posix.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/pqueue.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\pqueue.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/proxy.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\proxy.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/push.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\push.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/rebase.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\rebase.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/refdb.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\refdb.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/refdb_fs.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\refdb_fs.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/reflog.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\reflog.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/refs.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\refs.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/refspec.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\refspec.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/remote.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\remote.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/repository.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\repository.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/reset.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\reset.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/revert.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\revert.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/revparse.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\revparse.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/revwalk.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\revwalk.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/settings.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\settings.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/sha1_lookup.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\sha1_lookup.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/signature.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\signature.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/socket_stream.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\socket_stream.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/sortedcache.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\sortedcache.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/stash.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\stash.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/status.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\status.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/stransport_stream.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\stransport_stream.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/strmap.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\strmap.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/submodule.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\submodule.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/sysdir.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\sysdir.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/tag.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\tag.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/thread-utils.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\thread-utils.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/tls_stream.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\tls_stream.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/trace.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\trace.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transaction.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transaction.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transport.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transport.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/tree-cache.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\tree-cache.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/tree.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\tree.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/tsort.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\tsort.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/util.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\util.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/varint.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\varint.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/vector.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\vector.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/zstream.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\zstream.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\auth.c">
-      <Filter>src/transports</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\auth.c">
+      <Filter>src\transports</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\auth_negotiate.c">
-      <Filter>src/transports</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\auth_negotiate.c">
+      <Filter>src\transports</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\cred.c">
-      <Filter>src/transports</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\cred.c">
+      <Filter>src\transports</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\cred_helpers.c">
-      <Filter>src/transports</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\cred_helpers.c">
+      <Filter>src\transports</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\git.c">
-      <Filter>src/transports</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\git.c">
+      <Filter>src\transports</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\http.c">
-      <Filter>src/transports</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\http.c">
+      <Filter>src\transports</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\local.c">
-      <Filter>src/transports</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\local.c">
+      <Filter>src\transports</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\smart.c">
-      <Filter>src/transports</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\smart.c">
+      <Filter>src\transports</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\smart_pkt.c">
-      <Filter>src/transports</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\smart_pkt.c">
+      <Filter>src\transports</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\smart_protocol.c">
-      <Filter>src/transports</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\smart_protocol.c">
+      <Filter>src\transports</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\ssh.c">
-      <Filter>src/transports</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\ssh.c">
+      <Filter>src\transports</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\winhttp.c">
-      <Filter>src/transports</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\winhttp.c">
+      <Filter>src\transports</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xdiffi.c">
-      <Filter>src/xdiff</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xdiffi.c">
+      <Filter>src\xdiff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xemit.c">
-      <Filter>src/xdiff</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xemit.c">
+      <Filter>src\xdiff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xhistogram.c">
-      <Filter>src/xdiff</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xhistogram.c">
+      <Filter>src\xdiff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xmerge.c">
-      <Filter>src/xdiff</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xmerge.c">
+      <Filter>src\xdiff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xpatience.c">
-      <Filter>src/xdiff</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xpatience.c">
+      <Filter>src\xdiff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xprepare.c">
-      <Filter>src/xdiff</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xprepare.c">
+      <Filter>src\xdiff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xutils.c">
-      <Filter>src/xdiff</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xutils.c">
+      <Filter>src\xdiff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\dir.c">
-      <Filter>src/win32</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\dir.c">
+      <Filter>src\win32</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\error.c">
-      <Filter>src/win32</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\error.c">
+      <Filter>src\win32</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\findfile.c">
-      <Filter>src/win32</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\findfile.c">
+      <Filter>src\win32</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\map.c">
-      <Filter>src/win32</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\map.c">
+      <Filter>src\win32</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\path_w32.c">
-      <Filter>src/win32</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\path_w32.c">
+      <Filter>src\win32</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\posix_w32.c">
-      <Filter>src/win32</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\posix_w32.c">
+      <Filter>src\win32</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\precompiled.c">
-      <Filter>src/win32</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\precompiled.c">
+      <Filter>src\win32</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\thread.c">
-      <Filter>src/win32</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\thread.c">
+      <Filter>src\win32</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\utf-conv.c">
-      <Filter>src/win32</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\utf-conv.c">
+      <Filter>src\win32</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\w32_buffer.c">
-      <Filter>src/win32</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\w32_buffer.c">
+      <Filter>src\win32</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\w32_crtdbg_stacktrace.c">
-      <Filter>src/win32</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\w32_crtdbg_stacktrace.c">
+      <Filter>src\win32</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\w32_stack.c">
-      <Filter>src/win32</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\w32_stack.c">
+      <Filter>src\win32</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\w32_util.c">
-      <Filter>src/win32</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\w32_util.c">
+      <Filter>src\win32</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\main.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\main.c">
       <Filter>tests</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\clar_libgit2.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\clar_libgit2.c">
       <Filter>tests</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\clar_libgit2_trace.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\clar_libgit2_trace.c">
       <Filter>tests</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\clar_libgit2_timer.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\clar_libgit2_timer.c">
       <Filter>tests</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\clar.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\clar.c">
       <Filter>tests</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\apply\fromdiff.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\apply\fromdiff.c">
       <Filter>tests\apply</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\apply\fromfile.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\apply\fromfile.c">
       <Filter>tests\apply</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\attr\file.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\attr\file.c">
       <Filter>tests\attr</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\attr\flags.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\attr\flags.c">
       <Filter>tests\attr</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\attr\ignore.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\attr\ignore.c">
       <Filter>tests\attr</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\attr\lookup.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\attr\lookup.c">
       <Filter>tests\attr</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\attr\repo.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\attr\repo.c">
       <Filter>tests\attr</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\blame\blame_helpers.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\blame\blame_helpers.c">
       <Filter>tests\blame</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\blame\buffer.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\blame\buffer.c">
       <Filter>tests\blame</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\blame\getters.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\blame\getters.c">
       <Filter>tests\blame</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\blame\harder.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\blame\harder.c">
       <Filter>tests\blame</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\blame\simple.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\blame\simple.c">
       <Filter>tests\blame</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\buf\basic.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\buf\basic.c">
       <Filter>tests\buf</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\buf\oom.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\buf\oom.c">
       <Filter>tests\buf</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\buf\quote.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\buf\quote.c">
       <Filter>tests\buf</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\buf\splice.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\buf\splice.c">
       <Filter>tests\buf</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\checkout\binaryunicode.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\checkout\binaryunicode.c">
       <Filter>tests\checkout</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\checkout\checkout_helpers.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\checkout\checkout_helpers.c">
       <Filter>tests\checkout</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\checkout\conflict.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\checkout\conflict.c">
       <Filter>tests\checkout</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\checkout\crlf.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\checkout\crlf.c">
       <Filter>tests\checkout</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\checkout\head.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\checkout\head.c">
       <Filter>tests\checkout</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\checkout\icase.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\checkout\icase.c">
       <Filter>tests\checkout</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\checkout\index.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\checkout\index.c">
       <Filter>tests\checkout</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\checkout\nasty.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\checkout\nasty.c">
       <Filter>tests\checkout</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\checkout\tree.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\checkout\tree.c">
       <Filter>tests\checkout</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\checkout\typechange.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\checkout\typechange.c">
       <Filter>tests\checkout</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\cherrypick\bare.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\cherrypick\bare.c">
       <Filter>tests\cherrypick</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\cherrypick\workdir.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\cherrypick\workdir.c">
       <Filter>tests\cherrypick</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\clone\empty.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\clone\empty.c">
       <Filter>tests\clone</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\clone\local.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\clone\local.c">
       <Filter>tests\clone</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\clone\nonetwork.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\clone\nonetwork.c">
       <Filter>tests\clone</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\clone\transport.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\clone\transport.c">
       <Filter>tests\clone</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\commit\commit.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\commit\commit.c">
       <Filter>tests\commit</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\commit\parent.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\commit\parent.c">
       <Filter>tests\commit</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\commit\parse.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\commit\parse.c">
       <Filter>tests\commit</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\commit\signature.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\commit\signature.c">
       <Filter>tests\commit</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\commit\write.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\commit\write.c">
       <Filter>tests\commit</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\config\add.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\config\add.c">
       <Filter>tests\config</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\config\backend.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\config\backend.c">
       <Filter>tests\config</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\config\config_helpers.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\config\config_helpers.c">
       <Filter>tests\config</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\config\configlevel.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\config\configlevel.c">
       <Filter>tests\config</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\config\global.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\config\global.c">
       <Filter>tests\config</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\config\include.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\config\include.c">
       <Filter>tests\config</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\config\multivar.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\config\multivar.c">
       <Filter>tests\config</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\config\new.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\config\new.c">
       <Filter>tests\config</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\config\read.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\config\read.c">
       <Filter>tests\config</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\config\rename.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\config\rename.c">
       <Filter>tests\config</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\config\snapshot.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\config\snapshot.c">
       <Filter>tests\config</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\config\stress.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\config\stress.c">
       <Filter>tests\config</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\config\validkeyname.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\config\validkeyname.c">
       <Filter>tests\config</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\config\write.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\config\write.c">
       <Filter>tests\config</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\array.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\array.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\bitvec.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\bitvec.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\buffer.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\buffer.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\copy.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\copy.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\dirent.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\dirent.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\encoding.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\encoding.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\env.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\env.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\errors.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\errors.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\features.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\features.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\filebuf.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\filebuf.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\ftruncate.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\ftruncate.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\futils.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\futils.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\hex.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\hex.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\iconv.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\iconv.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\init.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\init.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\link.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\link.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\mkdir.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\mkdir.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\oid.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\oid.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\oidmap.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\oidmap.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\opts.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\opts.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\path.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\path.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\pool.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\pool.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\posix.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\posix.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\pqueue.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\pqueue.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\rmdir.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\rmdir.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\sortedcache.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\sortedcache.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\stat.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\stat.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\stream.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\stream.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\string.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\string.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\strmap.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\strmap.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\strtol.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\strtol.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\structinit.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\structinit.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\useragent.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\useragent.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\vector.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\vector.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests/core\zstream.c">
-      <Filter>tests/core</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\core\zstream.c">
+      <Filter>tests\core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\date\date.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\date\date.c">
       <Filter>tests\date</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\date\rfc2822.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\date\rfc2822.c">
       <Filter>tests\date</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\describe\describe.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\describe\describe.c">
       <Filter>tests\describe</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\describe\describe_helpers.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\describe\describe_helpers.c">
       <Filter>tests\describe</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\describe\t6120.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\describe\t6120.c">
       <Filter>tests\describe</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\diff\binary.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\diff\binary.c">
       <Filter>tests\diff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\diff\blob.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\diff\blob.c">
       <Filter>tests\diff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\diff\diff_helpers.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\diff\diff_helpers.c">
       <Filter>tests\diff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\diff\diffiter.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\diff\diffiter.c">
       <Filter>tests\diff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\diff\drivers.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\diff\drivers.c">
       <Filter>tests\diff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\diff\format_email.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\diff\format_email.c">
       <Filter>tests\diff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\diff\index.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\diff\index.c">
       <Filter>tests\diff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\diff\notify.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\diff\notify.c">
       <Filter>tests\diff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\diff\parse.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\diff\parse.c">
       <Filter>tests\diff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\diff\patch.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\diff\patch.c">
       <Filter>tests\diff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\diff\pathspec.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\diff\pathspec.c">
       <Filter>tests\diff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\diff\racediffiter.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\diff\racediffiter.c">
       <Filter>tests\diff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\diff\rename.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\diff\rename.c">
       <Filter>tests\diff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\diff\stats.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\diff\stats.c">
       <Filter>tests\diff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\diff\submodules.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\diff\submodules.c">
       <Filter>tests\diff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\diff\tree.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\diff\tree.c">
       <Filter>tests\diff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\diff\workdir.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\diff\workdir.c">
       <Filter>tests\diff</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\fetchhead\nonetwork.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\fetchhead\nonetwork.c">
       <Filter>tests\fetchhead</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\filter\blob.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\filter\blob.c">
       <Filter>tests\filter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\filter\crlf.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\filter\crlf.c">
       <Filter>tests\filter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\filter\custom.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\filter\custom.c">
       <Filter>tests\filter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\filter\custom_helpers.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\filter\custom_helpers.c">
       <Filter>tests\filter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\filter\file.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\filter\file.c">
       <Filter>tests\filter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\filter\ident.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\filter\ident.c">
       <Filter>tests\filter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\filter\query.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\filter\query.c">
       <Filter>tests\filter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\filter\stream.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\filter\stream.c">
       <Filter>tests\filter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\filter\wildcard.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\filter\wildcard.c">
       <Filter>tests\filter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\graph\descendant_of.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\graph\descendant_of.c">
       <Filter>tests\graph</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\index\add.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\index\add.c">
       <Filter>tests\index</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\index\addall.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\index\addall.c">
       <Filter>tests\index</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\index\bypath.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\index\bypath.c">
       <Filter>tests\index</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\index\cache.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\index\cache.c">
       <Filter>tests\index</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\index\collision.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\index\collision.c">
       <Filter>tests\index</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\index\conflicts.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\index\conflicts.c">
       <Filter>tests\index</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\index\crlf.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\index\crlf.c">
       <Filter>tests\index</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\index\filemodes.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\index\filemodes.c">
       <Filter>tests\index</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\index\inmemory.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\index\inmemory.c">
       <Filter>tests\index</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\index\names.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\index\names.c">
       <Filter>tests\index</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\index\nsec.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\index\nsec.c">
       <Filter>tests\index</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\index\racy.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\index\racy.c">
       <Filter>tests\index</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\index\read_index.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\index\read_index.c">
       <Filter>tests\index</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\index\read_tree.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\index\read_tree.c">
       <Filter>tests\index</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\index\rename.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\index\rename.c">
       <Filter>tests\index</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\index\reuc.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\index\reuc.c">
       <Filter>tests\index</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\index\stage.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\index\stage.c">
       <Filter>tests\index</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\index\tests.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\index\tests.c">
       <Filter>tests\index</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\index\version.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\index\version.c">
       <Filter>tests\index</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\iterator\index.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\iterator\index.c">
       <Filter>tests\iterator</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\iterator\iterator_helpers.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\iterator\iterator_helpers.c">
       <Filter>tests\iterator</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\iterator\tree.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\iterator\tree.c">
       <Filter>tests\iterator</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\iterator\workdir.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\iterator\workdir.c">
       <Filter>tests\iterator</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\driver.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\driver.c">
       <Filter>tests\merge</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\files.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\files.c">
       <Filter>tests\merge</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\merge_helpers.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\merge_helpers.c">
       <Filter>tests\merge</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\trees\automerge.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\trees\automerge.c">
       <Filter>tests\merge\trees</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\trees\commits.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\trees\commits.c">
       <Filter>tests\merge\trees</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\trees\modeconflict.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\trees\modeconflict.c">
       <Filter>tests\merge\trees</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\trees\recursive.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\trees\recursive.c">
       <Filter>tests\merge\trees</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\trees\renames.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\trees\renames.c">
       <Filter>tests\merge\trees</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\trees\treediff.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\trees\treediff.c">
       <Filter>tests\merge\trees</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\trees\trivial.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\trees\trivial.c">
       <Filter>tests\merge\trees</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\trees\whitespace.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\trees\whitespace.c">
       <Filter>tests\merge\trees</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\workdir\analysis.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\workdir\analysis.c">
       <Filter>tests\merge\workdir</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\workdir\dirty.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\workdir\dirty.c">
       <Filter>tests\merge\workdir</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\workdir\recursive.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\workdir\recursive.c">
       <Filter>tests\merge\workdir</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\workdir\renames.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\workdir\renames.c">
       <Filter>tests\merge\workdir</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\workdir\setup.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\workdir\setup.c">
       <Filter>tests\merge\workdir</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\workdir\simple.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\workdir\simple.c">
       <Filter>tests\merge\workdir</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\workdir\submodules.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\workdir\submodules.c">
       <Filter>tests\merge\workdir</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\workdir\trivial.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\workdir\trivial.c">
       <Filter>tests\merge\workdir</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\network\cred.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\network\cred.c">
       <Filter>tests\network</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\network\fetchlocal.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\network\fetchlocal.c">
       <Filter>tests\network</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\network\matchhost.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\network\matchhost.c">
       <Filter>tests\network</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\network\refspecs.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\network\refspecs.c">
       <Filter>tests\network</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\network\remote\createthenload.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\network\remote\createthenload.c">
       <Filter>tests\network\remote</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\network\remote\defaultbranch.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\network\remote\defaultbranch.c">
       <Filter>tests\network\remote</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\network\remote\delete.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\network\remote\delete.c">
       <Filter>tests\network\remote</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\network\remote\isvalidname.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\network\remote\isvalidname.c">
       <Filter>tests\network\remote</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\network\remote\local.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\network\remote\local.c">
       <Filter>tests\network\remote</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\network\remote\push.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\network\remote\push.c">
       <Filter>tests\network\remote</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\network\remote\remotes.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\network\remote\remotes.c">
       <Filter>tests\network\remote</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\network\remote\rename.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\network\remote\rename.c">
       <Filter>tests\network\remote</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\network\urlparse.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\network\urlparse.c">
       <Filter>tests\network</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\notes\notes.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\notes\notes.c">
       <Filter>tests\notes</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\notes\notesref.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\notes\notesref.c">
       <Filter>tests\notes</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\blob\filter.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\blob\filter.c">
       <Filter>tests\object\blob</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\blob\fromstream.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\blob\fromstream.c">
       <Filter>tests\object\blob</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\blob\write.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\blob\write.c">
       <Filter>tests\object\blob</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\cache.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\cache.c">
       <Filter>tests\object</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\commit\commitstagedfile.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\commit\commitstagedfile.c">
       <Filter>tests\object\commit</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\lookup.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\lookup.c">
       <Filter>tests\object</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\lookupbypath.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\lookupbypath.c">
       <Filter>tests\object</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\message.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\message.c">
       <Filter>tests\object</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\peel.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\peel.c">
       <Filter>tests\object</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\raw\chars.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\raw\chars.c">
       <Filter>tests\object\raw</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\raw\compare.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\raw\compare.c">
       <Filter>tests\object\raw</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\raw\convert.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\raw\convert.c">
       <Filter>tests\object\raw</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\raw\fromstr.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\raw\fromstr.c">
       <Filter>tests\object\raw</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\raw\hash.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\raw\hash.c">
       <Filter>tests\object\raw</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\raw\short.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\raw\short.c">
       <Filter>tests\object\raw</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\raw\size.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\raw\size.c">
       <Filter>tests\object\raw</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\raw\type2string.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\raw\type2string.c">
       <Filter>tests\object\raw</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\raw\write.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\raw\write.c">
       <Filter>tests\object\raw</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\shortid.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\shortid.c">
       <Filter>tests\object</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\tag\list.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\tag\list.c">
       <Filter>tests\object\tag</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\tag\peel.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\tag\peel.c">
       <Filter>tests\object\tag</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\tag\read.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\tag\read.c">
       <Filter>tests\object\tag</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\tag\write.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\tag\write.c">
       <Filter>tests\object\tag</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\tree\attributes.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\tree\attributes.c">
       <Filter>tests\object\tree</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\tree\duplicateentries.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\tree\duplicateentries.c">
       <Filter>tests\object\tree</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\tree\frompath.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\tree\frompath.c">
       <Filter>tests\object\tree</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\tree\read.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\tree\read.c">
       <Filter>tests\object\tree</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\tree\update.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\tree\update.c">
       <Filter>tests\object\tree</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\tree\walk.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\tree\walk.c">
       <Filter>tests\object\tree</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\tree\write.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\tree\write.c">
       <Filter>tests\object\tree</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\odb\alternates.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\odb\alternates.c">
       <Filter>tests\odb</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\odb\backend\nobackend.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\odb\backend\nobackend.c">
       <Filter>tests\odb\backend</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\odb\backend\nonrefreshing.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\odb\backend\nonrefreshing.c">
       <Filter>tests\odb\backend</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\odb\emptyobjects.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\odb\emptyobjects.c">
       <Filter>tests\odb</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\odb\foreach.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\odb\foreach.c">
       <Filter>tests\odb</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\odb\freshen.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\odb\freshen.c">
       <Filter>tests\odb</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\odb\loose.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\odb\loose.c">
       <Filter>tests\odb</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\odb\mixed.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\odb\mixed.c">
       <Filter>tests\odb</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\odb\packed.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\odb\packed.c">
       <Filter>tests\odb</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\odb\packed_one.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\odb\packed_one.c">
       <Filter>tests\odb</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\odb\sorting.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\odb\sorting.c">
       <Filter>tests\odb</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\odb\streamwrite.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\odb\streamwrite.c">
       <Filter>tests\odb</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\online\badssl.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\online\badssl.c">
       <Filter>tests\online</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\online\clone.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\online\clone.c">
       <Filter>tests\online</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\online\fetch.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\online\fetch.c">
       <Filter>tests\online</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\online\fetchhead.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\online\fetchhead.c">
       <Filter>tests\online</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\online\push.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\online\push.c">
       <Filter>tests\online</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\online\push_util.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\online\push_util.c">
       <Filter>tests\online</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\online\remotes.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\online\remotes.c">
       <Filter>tests\online</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\pack\indexer.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\pack\indexer.c">
       <Filter>tests\pack</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\pack\packbuilder.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\pack\packbuilder.c">
       <Filter>tests\pack</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\pack\sharing.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\pack\sharing.c">
       <Filter>tests\pack</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\patch\parse.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\patch\parse.c">
       <Filter>tests\patch</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\patch\print.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\patch\print.c">
       <Filter>tests\patch</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\path/core.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\path\core.c">
       <Filter>tests\path</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\path\win32.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\path\win32.c">
       <Filter>tests\path</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\perf\helper__perf__do_merge.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\perf\helper__perf__do_merge.c">
       <Filter>tests\perf</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\perf\helper__perf__timer.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\perf\helper__perf__timer.c">
       <Filter>tests\perf</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\perf\merge.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\perf\merge.c">
       <Filter>tests\perf</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\rebase\abort.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\rebase\abort.c">
       <Filter>tests\rebase</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\rebase\inmemory.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\rebase\inmemory.c">
       <Filter>tests\rebase</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\rebase\iterator.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\rebase\iterator.c">
       <Filter>tests\rebase</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\rebase\merge.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\rebase\merge.c">
       <Filter>tests\rebase</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\rebase\setup.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\rebase\setup.c">
       <Filter>tests\rebase</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\branches\create.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\branches\create.c">
       <Filter>tests\refs\branches</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\branches\delete.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\branches\delete.c">
       <Filter>tests\refs\branches</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\branches\ishead.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\branches\ishead.c">
       <Filter>tests\refs\branches</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\branches\iterator.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\branches\iterator.c">
       <Filter>tests\refs\branches</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\branches\lookup.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\branches\lookup.c">
       <Filter>tests\refs\branches</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\branches\move.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\branches\move.c">
       <Filter>tests\refs\branches</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\branches\name.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\branches\name.c">
       <Filter>tests\refs\branches</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\branches\remote.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\branches\remote.c">
       <Filter>tests\refs\branches</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\branches\upstream.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\branches\upstream.c">
       <Filter>tests\refs\branches</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\branches\upstreamname.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\branches\upstreamname.c">
       <Filter>tests\refs\branches</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\crashes.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\crashes.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\create.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\create.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\createwithlog.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\createwithlog.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\delete.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\delete.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\dup.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\dup.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\foreachglob.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\foreachglob.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\isvalidname.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\isvalidname.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\iterator.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\iterator.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\list.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\list.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\listall.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\listall.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\lookup.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\lookup.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\normalize.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\normalize.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\overwrite.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\overwrite.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\pack.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\pack.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\peel.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\peel.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\races.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\races.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\read.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\read.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\ref_helpers.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\ref_helpers.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\reflog\drop.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\reflog\drop.c">
       <Filter>tests\refs\reflog</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\reflog\reflog.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\reflog\reflog.c">
       <Filter>tests\refs\reflog</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\rename.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\rename.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\revparse.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\revparse.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\settargetwithlog.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\settargetwithlog.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\setter.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\setter.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\shorthand.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\shorthand.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\transactions.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\transactions.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\unicode.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\unicode.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\update.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\update.c">
       <Filter>tests\refs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\remote\insteadof.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\remote\insteadof.c">
       <Filter>tests\remote</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\repo\config.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\repo\config.c">
       <Filter>tests\repo</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\repo\discover.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\repo\discover.c">
       <Filter>tests\repo</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\repo\env.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\repo\env.c">
       <Filter>tests\repo</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\repo\getters.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\repo\getters.c">
       <Filter>tests\repo</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\repo\hashfile.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\repo\hashfile.c">
       <Filter>tests\repo</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\repo\head.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\repo\head.c">
       <Filter>tests\repo</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\repo\headtree.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\repo\headtree.c">
       <Filter>tests\repo</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\repo\init.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\repo\init.c">
       <Filter>tests\repo</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\repo\message.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\repo\message.c">
       <Filter>tests\repo</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\repo\new.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\repo\new.c">
       <Filter>tests\repo</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\repo\open.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\repo\open.c">
       <Filter>tests\repo</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\repo\pathspec.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\repo\pathspec.c">
       <Filter>tests\repo</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\repo\repo_helpers.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\repo\repo_helpers.c">
       <Filter>tests\repo</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\repo\reservedname.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\repo\reservedname.c">
       <Filter>tests\repo</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\repo\setters.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\repo\setters.c">
       <Filter>tests\repo</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\repo\shallow.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\repo\shallow.c">
       <Filter>tests\repo</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\repo\state.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\repo\state.c">
       <Filter>tests\repo</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\reset\default.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\reset\default.c">
       <Filter>tests\reset</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\reset\hard.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\reset\hard.c">
       <Filter>tests\reset</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\reset\mixed.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\reset\mixed.c">
       <Filter>tests\reset</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\reset\reset_helpers.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\reset\reset_helpers.c">
       <Filter>tests\reset</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\reset\soft.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\reset\soft.c">
       <Filter>tests\reset</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\revert\bare.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\revert\bare.c">
       <Filter>tests\revert</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\revert\workdir.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\revert\workdir.c">
       <Filter>tests\revert</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\revwalk\basic.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\revwalk\basic.c">
       <Filter>tests\revwalk</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\revwalk\hidecb.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\revwalk\hidecb.c">
       <Filter>tests\revwalk</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\revwalk\mergebase.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\revwalk\mergebase.c">
       <Filter>tests\revwalk</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\revwalk\signatureparsing.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\revwalk\signatureparsing.c">
       <Filter>tests\revwalk</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\revwalk\simplify.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\revwalk\simplify.c">
       <Filter>tests\revwalk</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\stash\apply.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\stash\apply.c">
       <Filter>tests\stash</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\stash\drop.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\stash\drop.c">
       <Filter>tests\stash</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\stash\foreach.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\stash\foreach.c">
       <Filter>tests\stash</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\stash\save.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\stash\save.c">
       <Filter>tests\stash</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\stash\stash_helpers.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\stash\stash_helpers.c">
       <Filter>tests\stash</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\stash\submodules.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\stash\submodules.c">
       <Filter>tests\stash</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\status\ignore.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\status\ignore.c">
       <Filter>tests\status</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\status\renames.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\status\renames.c">
       <Filter>tests\status</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\status\single.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\status\single.c">
       <Filter>tests\status</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\status\status_helpers.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\status\status_helpers.c">
       <Filter>tests\status</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\status\submodules.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\status\submodules.c">
       <Filter>tests\status</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\status\worktree.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\status\worktree.c">
       <Filter>tests\status</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\status\worktree_init.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\status\worktree_init.c">
       <Filter>tests\status</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\stress\diff.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\stress\diff.c">
       <Filter>tests\stress</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\submodule\add.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\submodule\add.c">
       <Filter>tests\submodule</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\submodule\init.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\submodule\init.c">
       <Filter>tests\submodule</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\submodule\lookup.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\submodule\lookup.c">
       <Filter>tests\submodule</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\submodule\modify.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\submodule\modify.c">
       <Filter>tests\submodule</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\submodule\nosubs.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\submodule\nosubs.c">
       <Filter>tests\submodule</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\submodule\repository_init.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\submodule\repository_init.c">
       <Filter>tests\submodule</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\submodule\status.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\submodule\status.c">
       <Filter>tests\submodule</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\submodule\submodule_helpers.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\submodule\submodule_helpers.c">
       <Filter>tests\submodule</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\submodule\update.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\submodule\update.c">
       <Filter>tests\submodule</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\threads\basic.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\threads\basic.c">
       <Filter>tests\threads</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\threads\diff.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\threads\diff.c">
       <Filter>tests\threads</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\threads\iterator.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\threads\iterator.c">
       <Filter>tests\threads</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\threads\refdb.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\threads\refdb.c">
       <Filter>tests\threads</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\threads\thread_helpers.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\threads\thread_helpers.c">
       <Filter>tests\threads</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\trace\trace.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\trace\trace.c">
       <Filter>tests\trace</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\trace\windows\stacktrace.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\trace\windows\stacktrace.c">
       <Filter>tests\trace\windows</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\transport\register.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\transport\register.c">
       <Filter>tests\transport</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\win32\forbidden.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\win32\forbidden.c">
       <Filter>tests\win32</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\win32\longpath.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\win32\longpath.c">
       <Filter>tests\win32</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\adler32.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\adler32.c">
       <Filter>deps\zlib</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\crc32.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\crc32.c">
       <Filter>deps\zlib</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\deflate.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\deflate.c">
       <Filter>deps\zlib</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\infback.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\infback.c">
       <Filter>deps\zlib</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\inffast.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\inffast.c">
       <Filter>deps\zlib</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\inflate.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\inflate.c">
       <Filter>deps\zlib</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\inftrees.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\inftrees.c">
       <Filter>deps\zlib</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\trees.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\trees.c">
       <Filter>deps\zlib</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\zutil.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\zutil.c">
       <Filter>deps\zlib</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser\http_parser.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\http-parser\http_parser.c">
       <Filter>deps\http-parser</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\regex\regex.c">
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\regex\regex.c">
       <Filter>deps\regex</Filter>
     </ClCompile>
-    <ClCompile Include="C:\SFTdevelopment/library/ext/src/libgit2/src/hash\hash_win32.c">
-      <Filter>src/hash</Filter>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\libgit2\src\hash\hash_win32.c">
+      <Filter>src\hash</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\annotated_commit.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\annotated_commit.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\attr.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\attr.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\blame.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\blame.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\blob.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\blob.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\branch.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\branch.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\buffer.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\buffer.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\checkout.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\checkout.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\cherrypick.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\cherrypick.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\clone.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\clone.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\commit.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\commit.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\common.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\common.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\config.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\config.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\cred_helpers.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\cred_helpers.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\describe.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\describe.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\diff.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\diff.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\errors.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\errors.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\filter.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\filter.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\global.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\global.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\graph.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\graph.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\ignore.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\ignore.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\index.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\index.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\indexer.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\indexer.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\inttypes.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\inttypes.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\merge.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\merge.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\message.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\message.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\net.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\net.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\notes.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\notes.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\object.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\object.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\odb.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\odb.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\odb_backend.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\odb_backend.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\oid.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\oid.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\oidarray.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\oidarray.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\pack.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\pack.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\patch.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\patch.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\pathspec.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\pathspec.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\proxy.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\proxy.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\rebase.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\rebase.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\refdb.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\refdb.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\reflog.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\reflog.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\refs.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\refs.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\refspec.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\refspec.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\remote.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\remote.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\repository.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\repository.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\reset.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\reset.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\revert.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\revert.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\revparse.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\revparse.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\revwalk.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\revwalk.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\signature.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\signature.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\stash.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\stash.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\status.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\status.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\stdint.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\stdint.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\strarray.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\strarray.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\submodule.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\submodule.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\tag.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\tag.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\trace.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\trace.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\transaction.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\transaction.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\transport.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\transport.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\tree.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\tree.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\types.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\types.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\version.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\version.h">
       <Filter>include\git2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\commit.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\commit.h">
       <Filter>include\git2\sys</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\config.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\config.h">
       <Filter>include\git2\sys</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\diff.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\diff.h">
       <Filter>include\git2\sys</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\filter.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\filter.h">
       <Filter>include\git2\sys</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\hashsig.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\hashsig.h">
       <Filter>include\git2\sys</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\index.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\index.h">
       <Filter>include\git2\sys</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\mempack.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\mempack.h">
       <Filter>include\git2\sys</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\merge.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\merge.h">
       <Filter>include\git2\sys</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\odb_backend.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\odb_backend.h">
       <Filter>include\git2\sys</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\openssl.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\openssl.h">
       <Filter>include\git2\sys</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\refdb_backend.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\refdb_backend.h">
       <Filter>include\git2\sys</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\reflog.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\reflog.h">
       <Filter>include\git2\sys</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\refs.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\refs.h">
       <Filter>include\git2\sys</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\remote.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\remote.h">
       <Filter>include\git2\sys</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\repository.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\repository.h">
       <Filter>include\git2\sys</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\stream.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\stream.h">
       <Filter>include\git2\sys</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\time.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\time.h">
       <Filter>include\git2\sys</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\include\git2\sys\transport.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\include\git2\sys\transport.h">
       <Filter>include\git2\sys</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/annotated_commit.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\annotated_commit.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/apply.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\apply.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/array.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\array.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/attr.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\attr.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/attr_file.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\attr_file.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/attrcache.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\attrcache.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/bitvec.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\bitvec.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/blame.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\blame.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/blame_git.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\blame_git.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/blob.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\blob.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/branch.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\branch.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/buf_text.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\buf_text.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/buffer.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\buffer.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/cache.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\cache.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/cc-compat.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\cc-compat.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/checkout.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\checkout.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/clone.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\clone.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/commit.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\commit.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/commit_list.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\commit_list.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/common.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\common.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/config.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\config.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/config_file.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\config_file.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/curl_stream.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\curl_stream.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/delta.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\delta.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_driver.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_driver.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_file.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_file.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_generate.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_generate.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_parse.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_parse.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_tform.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_tform.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/diff_xdiff.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\diff_xdiff.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/fetch.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\fetch.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/fetchhead.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\fetchhead.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/filebuf.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\filebuf.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/fileops.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\fileops.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/filter.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\filter.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/fnmatch.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\fnmatch.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/global.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\global.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/hash.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\hash.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/idxmap.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\idxmap.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/ignore.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\ignore.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/index.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\index.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/integer.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\integer.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/iterator.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\iterator.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/khash.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\khash.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/map.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\map.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/merge.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\merge.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/merge_driver.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\merge_driver.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/message.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\message.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/mwindow.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\mwindow.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/netops.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\netops.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/notes.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\notes.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/object.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\object.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/odb.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\odb.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/offmap.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\offmap.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/oid.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\oid.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/oidarray.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\oidarray.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/oidmap.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\oidmap.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/openssl_stream.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\openssl_stream.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/pack-objects.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\pack-objects.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/pack.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\pack.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/patch.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\patch.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/patch_generate.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\patch_generate.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/patch_parse.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\patch_parse.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/path.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\path.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/pathspec.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\pathspec.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/pool.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\pool.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/posix.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\posix.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/pqueue.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\pqueue.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/proxy.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\proxy.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/push.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\push.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/refdb.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\refdb.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/refdb_fs.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\refdb_fs.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/reflog.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\reflog.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/refs.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\refs.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/refspec.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\refspec.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/remote.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\remote.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/repo_template.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\repo_template.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/repository.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\repository.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/revwalk.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\revwalk.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/sha1_lookup.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\sha1_lookup.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/signature.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\signature.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/socket_stream.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\socket_stream.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/sortedcache.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\sortedcache.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/status.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\status.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/stransport_stream.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\stransport_stream.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/stream.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\stream.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/strmap.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\strmap.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/strnlen.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\strnlen.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/submodule.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\submodule.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/sysdir.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\sysdir.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/tag.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\tag.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/thread-utils.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\thread-utils.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/tls_stream.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\tls_stream.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/trace.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\trace.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transaction.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transaction.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/tree-cache.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\tree-cache.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/tree.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\tree.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/userdiff.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\userdiff.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/util.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\util.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/varint.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\varint.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/vector.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\vector.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/zstream.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\zstream.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\auth.h">
-      <Filter>src/transports</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\auth.h">
+      <Filter>src\transports</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\auth_negotiate.h">
-      <Filter>src/transports</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\auth_negotiate.h">
+      <Filter>src\transports</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\cred.h">
-      <Filter>src/transports</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\cred.h">
+      <Filter>src\transports</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\smart.h">
-      <Filter>src/transports</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\smart.h">
+      <Filter>src\transports</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/transports\ssh.h">
-      <Filter>src/transports</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\transports\ssh.h">
+      <Filter>src\transports</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xdiff.h">
-      <Filter>src/xdiff</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xdiff.h">
+      <Filter>src\xdiff</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xdiffi.h">
-      <Filter>src/xdiff</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xdiffi.h">
+      <Filter>src\xdiff</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xemit.h">
-      <Filter>src/xdiff</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xemit.h">
+      <Filter>src\xdiff</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xinclude.h">
-      <Filter>src/xdiff</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xinclude.h">
+      <Filter>src\xdiff</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xmacros.h">
-      <Filter>src/xdiff</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xmacros.h">
+      <Filter>src\xdiff</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xprepare.h">
-      <Filter>src/xdiff</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xprepare.h">
+      <Filter>src\xdiff</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xtypes.h">
-      <Filter>src/xdiff</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xtypes.h">
+      <Filter>src\xdiff</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/xdiff\xutils.h">
-      <Filter>src/xdiff</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\xdiff\xutils.h">
+      <Filter>src\xdiff</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\dir.h">
-      <Filter>src/win32</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\dir.h">
+      <Filter>src\win32</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\error.h">
-      <Filter>src/win32</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\error.h">
+      <Filter>src\win32</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\findfile.h">
-      <Filter>src/win32</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\findfile.h">
+      <Filter>src\win32</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\mingw-compat.h">
-      <Filter>src/win32</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\mingw-compat.h">
+      <Filter>src\win32</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\msvc-compat.h">
-      <Filter>src/win32</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\msvc-compat.h">
+      <Filter>src\win32</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\path_w32.h">
-      <Filter>src/win32</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\path_w32.h">
+      <Filter>src\win32</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\posix.h">
-      <Filter>src/win32</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\posix.h">
+      <Filter>src\win32</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\precompiled.h">
-      <Filter>src/win32</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\precompiled.h">
+      <Filter>src\win32</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\reparse.h">
-      <Filter>src/win32</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\reparse.h">
+      <Filter>src\win32</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\thread.h">
-      <Filter>src/win32</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\thread.h">
+      <Filter>src\win32</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\utf-conv.h">
-      <Filter>src/win32</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\utf-conv.h">
+      <Filter>src\win32</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\version.h">
-      <Filter>src/win32</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\version.h">
+      <Filter>src\win32</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\w32_buffer.h">
-      <Filter>src/win32</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\w32_buffer.h">
+      <Filter>src\win32</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\w32_crtdbg_stacktrace.h">
-      <Filter>src/win32</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\w32_crtdbg_stacktrace.h">
+      <Filter>src\win32</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\w32_stack.h">
-      <Filter>src/win32</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\w32_stack.h">
+      <Filter>src\win32</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\w32_util.h">
-      <Filter>src/win32</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\w32_util.h">
+      <Filter>src\win32</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2/src/win32\win32-compat.h">
-      <Filter>src/win32</Filter>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\src\win32\win32-compat.h">
+      <Filter>src\win32</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\attr\attr_expect.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\attr\attr_expect.h">
       <Filter>tests\attr</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\blame\blame_helpers.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\blame\blame_helpers.h">
       <Filter>tests\blame</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\checkout\checkout_helpers.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\checkout\checkout_helpers.h">
       <Filter>tests\checkout</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\clar\fixtures.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\clar\fixtures.h">
       <Filter>tests\clar</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\clar\fs.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\clar\fs.h">
       <Filter>tests\clar</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\clar\print.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\clar\print.h">
       <Filter>tests\clar</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\clar\sandbox.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\clar\sandbox.h">
       <Filter>tests\clar</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\config\config_helpers.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\config\config_helpers.h">
       <Filter>tests\config</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\describe\describe_helpers.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\describe\describe_helpers.h">
       <Filter>tests\describe</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\diff\diff_helpers.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\diff\diff_helpers.h">
       <Filter>tests\diff</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\fetchhead\fetchhead_data.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\fetchhead\fetchhead_data.h">
       <Filter>tests\fetchhead</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\filter\crlf.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\filter\crlf.h">
       <Filter>tests\filter</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\filter\custom_helpers.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\filter\custom_helpers.h">
       <Filter>tests\filter</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\index\conflicts.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\index\conflicts.h">
       <Filter>tests\index</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\iterator\iterator_helpers.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\iterator\iterator_helpers.h">
       <Filter>tests\iterator</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\conflict_data.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\conflict_data.h">
       <Filter>tests\merge</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\merge\merge_helpers.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\merge\merge_helpers.h">
       <Filter>tests\merge</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\object\raw\data.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\object\raw\data.h">
       <Filter>tests\object\raw</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\odb\loose_data.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\odb\loose_data.h">
       <Filter>tests\odb</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\odb\pack_data.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\odb\pack_data.h">
       <Filter>tests\odb</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\odb\pack_data_one.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\odb\pack_data_one.h">
       <Filter>tests\odb</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\online\push_util.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\online\push_util.h">
       <Filter>tests\online</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\patch\patch_common.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\patch\patch_common.h">
       <Filter>tests\patch</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\perf\helper__perf__do_merge.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\perf\helper__perf__do_merge.h">
       <Filter>tests\perf</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\perf\helper__perf__timer.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\perf\helper__perf__timer.h">
       <Filter>tests\perf</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\refs\ref_helpers.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\refs\ref_helpers.h">
       <Filter>tests\refs</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\repo\repo_helpers.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\repo\repo_helpers.h">
       <Filter>tests\repo</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\reset\reset_helpers.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\reset\reset_helpers.h">
       <Filter>tests\reset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\stash\stash_helpers.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\stash\stash_helpers.h">
       <Filter>tests\stash</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\status\status_data.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\status\status_data.h">
       <Filter>tests\status</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\status\status_helpers.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\status\status_helpers.h">
       <Filter>tests\status</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\submodule\submodule_helpers.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\submodule\submodule_helpers.h">
       <Filter>tests\submodule</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\tests\threads\thread_helpers.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\tests\threads\thread_helpers.h">
       <Filter>tests\threads</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\crc32.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\crc32.h">
       <Filter>deps\zlib</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\deflate.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\deflate.h">
       <Filter>deps\zlib</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\inffast.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\inffast.h">
       <Filter>deps\zlib</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\inffixed.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\inffixed.h">
       <Filter>deps\zlib</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\inflate.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\inflate.h">
       <Filter>deps\zlib</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\inftrees.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\inftrees.h">
       <Filter>deps\zlib</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\trees.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\trees.h">
       <Filter>deps\zlib</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\zconf.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\zconf.h">
       <Filter>deps\zlib</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\zlib.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\zlib.h">
       <Filter>deps\zlib</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\zlib\zutil.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\zlib\zutil.h">
       <Filter>deps\zlib</Filter>
     </ClInclude>
-    <ClInclude Include="C:\SFTdevelopment/library/ext/src/libgit2\deps\http-parser\http_parser.h">
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\libgit2\deps\http-parser\http_parser.h">
       <Filter>deps\http-parser</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\SFTdevelopment/library/ext/src/libgit2\CMakeLists.txt" />
-    <CustomBuild Include="C:\SFTdevelopment/library/ext/src/libgit2\CMakeFiles\cfdf13cd121540b1fd9207350ceff919\clar.suite.rule">
+    <CustomBuild Include="C:\SFTdevelopment\library\ext\src\libgit2\CMakeLists.txt" />
+    <CustomBuild Include="C:\SFTdevelopment\library\ext\src\libgit2\CMakeFiles\cfdf13cd121540b1fd9207350ceff919\clar.suite.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="tests\odb\backend">
-      <UniqueIdentifier>{6E8955E7-6F49-3CE7-BAE4-DE68AA9736EE}</UniqueIdentifier>
+    <Filter Include="include\git2">
+      <UniqueIdentifier>{74E68241-76E8-3EA3-BA1B-04DC0F886764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\git2\sys">
+      <UniqueIdentifier>{5D759204-9BF0-3119-91E8-42731FDE8080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\network\remote">
+      <UniqueIdentifier>{05F3DCD8-93B9-3767-BD61-1A4B64C9EE96}</UniqueIdentifier>
     </Filter>
     <Filter Include="tests\trace\windows">
       <UniqueIdentifier>{84AADEFF-2D0D-323E-88D0-8CDE2B956DDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\odb\backend">
+      <UniqueIdentifier>{6E8955E7-6F49-3CE7-BAE4-DE68AA9736EE}</UniqueIdentifier>
     </Filter>
     <Filter Include="tests\apply">
       <UniqueIdentifier>{0AC442A1-C6EB-3B77-9BBC-C7484DCCAC70}</UniqueIdentifier>
@@ -2324,7 +2333,7 @@
     <Filter Include="tests\config">
       <UniqueIdentifier>{F5A3A982-AB8C-3470-B72F-127D53AF6A45}</UniqueIdentifier>
     </Filter>
-    <Filter Include="tests/core">
+    <Filter Include="tests\core">
       <UniqueIdentifier>{2997F68F-970B-317B-AC45-26C89E466B97}</UniqueIdentifier>
     </Filter>
     <Filter Include="tests\date">
@@ -2435,29 +2444,11 @@
     <Filter Include="tests\refs\reflog">
       <UniqueIdentifier>{97ED8C4D-76EF-3E6B-B745-DFFB47E1CE98}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CMake Rules">
-      <UniqueIdentifier>{76376CA6-59D6-3C79-A108-6DA192AD0C32}</UniqueIdentifier>
+    <Filter Include="tests\merge\trees">
+      <UniqueIdentifier>{538C30EE-C8A7-3282-9F27-DBD2AB2EBDBD}</UniqueIdentifier>
     </Filter>
-    <Filter Include="include">
-      <UniqueIdentifier>{A4E330B0-08F5-381C-841E-D0E3A98D82C9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src">
-      <UniqueIdentifier>{EE190A58-AE80-3025-AF97-7561E7A9564F}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="deps">
-      <UniqueIdentifier>{9B84213C-3109-366A-91AA-18D59F209DEA}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="tests">
-      <UniqueIdentifier>{F23206A2-FD6A-3410-90E2-133E29E0E2AB}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="deps\zlib">
-      <UniqueIdentifier>{5EF99710-EE89-361A-B50A-1F74D32ECF79}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="deps\http-parser">
-      <UniqueIdentifier>{8775E8E4-FF47-3BF9-9415-7702E0E887FC}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="deps\regex">
-      <UniqueIdentifier>{542C2399-8BAD-3933-8D6A-C0D7953FA6F3}</UniqueIdentifier>
+    <Filter Include="tests\merge\workdir">
+      <UniqueIdentifier>{F40F35E3-BB91-3566-8BF4-C902CE5FDEAE}</UniqueIdentifier>
     </Filter>
     <Filter Include="tests\object\blob">
       <UniqueIdentifier>{BA3B5A1F-4156-3DEF-A355-A18E191506DF}</UniqueIdentifier>
@@ -2474,32 +2465,41 @@
     <Filter Include="tests\object\tree">
       <UniqueIdentifier>{7F6BCD74-2C1D-34ED-B60C-B340D9DC9A35}</UniqueIdentifier>
     </Filter>
-    <Filter Include="tests\network\remote">
-      <UniqueIdentifier>{05F3DCD8-93B9-3767-BD61-1A4B64C9EE96}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="include\git2">
-      <UniqueIdentifier>{74E68241-76E8-3EA3-BA1B-04DC0F886764}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="include\git2\sys">
-      <UniqueIdentifier>{5D759204-9BF0-3119-91E8-42731FDE8080}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src/transports">
+    <Filter Include="src\transports">
       <UniqueIdentifier>{DFD5F744-C548-3AA8-A184-9352B10D85B4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src/xdiff">
+    <Filter Include="src\xdiff">
       <UniqueIdentifier>{B3827989-52F8-35DE-800C-DB92C8BC221D}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src/win32">
+    <Filter Include="src\win32">
       <UniqueIdentifier>{41D1C0DB-5305-3C36-B22A-3017E0A975FC}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src/hash">
+    <Filter Include="src\hash">
       <UniqueIdentifier>{F587BF5E-9360-38E7-B8A9-F21234781AA2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="tests\merge\trees">
-      <UniqueIdentifier>{538C30EE-C8A7-3282-9F27-DBD2AB2EBDBD}</UniqueIdentifier>
+    <Filter Include="deps\zlib">
+      <UniqueIdentifier>{5EF99710-EE89-361A-B50A-1F74D32ECF79}</UniqueIdentifier>
     </Filter>
-    <Filter Include="tests\merge\workdir">
-      <UniqueIdentifier>{F40F35E3-BB91-3566-8BF4-C902CE5FDEAE}</UniqueIdentifier>
+    <Filter Include="deps\http-parser">
+      <UniqueIdentifier>{8775E8E4-FF47-3BF9-9415-7702E0E887FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps\regex">
+      <UniqueIdentifier>{542C2399-8BAD-3933-8D6A-C0D7953FA6F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{76376CA6-59D6-3C79-A108-6DA192AD0C32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{A4E330B0-08F5-381C-841E-D0E3A98D82C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{EE190A58-AE80-3025-AF97-7561E7A9564F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps">
+      <UniqueIdentifier>{9B84213C-3109-366A-91AA-18D59F209DEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{F23206A2-FD6A-3410-90E2-133E29E0E2AB}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
