@@ -98,8 +98,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)/</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)/</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">git2</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">git2</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
@@ -108,8 +108,8 @@
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)/</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)/</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">git2</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">git2</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
@@ -118,8 +118,8 @@
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)/</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)/</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">git2</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">git2</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
@@ -128,8 +128,8 @@
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)/</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)/</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">git2</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">git2</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
@@ -140,20 +140,20 @@
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
-    <OutDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</OutDir>
-    <IntDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</IntDir>
+    <OutDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)/</OutDir>
+    <IntDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)/</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</OutDir>
-    <IntDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</IntDir>
+    <OutDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)/</OutDir>
+    <IntDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)/</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
-    <OutDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</OutDir>
-    <IntDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</IntDir>
+    <OutDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)/</OutDir>
+    <IntDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)/</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</OutDir>
-    <IntDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</IntDir>
+    <OutDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)/</OutDir>
+    <IntDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)/</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
